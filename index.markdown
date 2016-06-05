@@ -1,7 +1,7 @@
 ---
-title: Welcome
+title: Welcome!
 date: 2016-06-05 01:02:00 -07:00
-layout: default
+layout: home
 ---
 
 # Joe & Shara
