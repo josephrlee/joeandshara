@@ -1,3 +1,6 @@
+---
+---
+
 /* - - - - - - - - - - - - - - - - - - - - -
 
  Title : Custom Wufoo Form Styles for Joe & Shara's Wedding!
@@ -38,13 +41,15 @@ html{background-image:none;background-color:#99cc00}
 .wufoo .instruct{border:1px solid #e6e6e6}
 
 /* Typography */
-.wufoo .info h2{font-size:160%;font-family:inherit;color:#000000}
-.wufoo .info div{font-size:95%;font-family:inherit;color:#444444}
-.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#000000}
-.wufoo .section div{font-size:85%;font-family:inherit;color:#444444}
-.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#444444}
-.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
-.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#333333}
+$base-font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
+.wufoo .info h2{font-size:160%;font-family:$base-font-family;color:#000000}
+.wufoo .info div{font-size:95%;font-family:$base-font-family;color:#444444}
+.wufoo .section h3{font-size:110%;font-family:$base-font-family;background:#FFFFFF;color:#000000}
+.wufoo .section div{font-size:85%;font-family:$base-font-family;color:#444444}
+.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:$base-font-family;color:#444444}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:$base-font-family;color:#444444}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:$base-font-family;color:#333333}
 .wufoo label.choice{color:#444444}
-.wufoo .instruct{font-size:80%;font-family:inherit;color:#444444
+.wufoo .instruct{font-size:80%;font-family:$base-font-family;color:#444444
 }
