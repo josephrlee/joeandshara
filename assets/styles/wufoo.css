@@ -1,0 +1,28 @@
+ /*- - - - - - - - - - - - - - - - - - - - -
+
+ Title : Custom Wufoo Form Styles for Joe & Shara's Wedding!
+ URL : http://joeandshara.com
+
+ Last Updated : June 5, 2016
+
+- - - - - - - - - - - - - - - - - - - - -
+
+INSTRUCTIONS
+1. Copy / Paste all or portions of these
+CSS rules into "custom.css".
+
+2. Experiment and play.
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* - - - Default - - - */
+
+/* Logo */
+#logo {display: none !important;}
+
+/* Typography */
+
+
+form li div label, form li span label {
+  font-size: 16px !important;
+}
