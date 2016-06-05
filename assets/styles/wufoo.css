@@ -18,11 +18,8 @@ CSS rules into "custom.css".
 /* - - - Default - - - */
 
 /* Logo */
-#logo a {background-image:url('http://wufoo.com/images/themes/logos/shark.png'); min-height:0; height:40px}
-* html #logo a {/* IE6 png Support */
-	background-image: none;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
-}
+#logo, #logo a {display: none;}
+
 
 /* Backgrounds */
 html{background-image:none;background-color:#99cc00}
