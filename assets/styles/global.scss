@@ -1,3 +1,7 @@
+---
+
+---
+
 /*--- Stylesheet Joe & Shara's Wedding website  --- */
 
 @import "normalize";
@@ -7,10 +11,38 @@
 
 
 * {
-  @include box-sizing(border-box)
+  box-sizing: border-box;
 }
 
-body{
-  background: grey;
-  color: #fff;
+
+.hero {
+  $large-screen: 50em !default;
+  align-items: center;
+  background: url("#{$img-path}/hero-banner.jpg");
+  @include retina-image(#{$img-path}/hero-banner, cover);
+  background-position: right;
+  background-size: none;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2em;
+
+  @include media($large-screen) {
+    background-size: cover;
+    background-position: left;
+    justify-content: flex-end;
+  }
+
+  .hero-content {
+    max-width: 20em;
+    text-align: center;
+
+    @include media($large-screen) {
+      text-align: left;
+    }
+  }
+
+  .hero-logo {
+    margin: auto;
+  }
 }

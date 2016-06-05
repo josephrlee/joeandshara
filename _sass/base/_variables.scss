@@ -1,9 +1,11 @@
 // Breakpoints
+$small-screen: 300px;
 $medium-screen: 600px;
 $large-screen: 900px;
+$xlarge-screen: 1200px;
 
 // Typography
-$base-font-family: $font-stack-system;
+$base-font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -44,3 +46,6 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
+
+// Images
+$img-path: /assets/images
