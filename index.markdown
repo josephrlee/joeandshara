@@ -1,7 +1,11 @@
 ---
-title: Hello!
-date: 2016-05-28 16:19:00 -07:00
-layout: default
+title: Welcome!
+date: 2016-06-05 01:02:00 -07:00
+layout: home
 ---
 
-* # Welcome to our wedding website!
+# Joe & Shara
+
+We're so excited to see you at our wedding!!!
+
+Fill out your address so we can send you an awesome paper invitation:
