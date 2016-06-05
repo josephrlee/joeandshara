@@ -2,6 +2,7 @@
 ---
 
 @import 'toolbox';
+@import 'milligram';
 
 * {
   @include box-sizing(border-box)
