@@ -13,7 +13,11 @@
   box-sizing: border-box;
 }
 
-
+// INTRO
+// ========================================================
+#joe--shara {
+  font-size: em(36px);
+}
 .hero {
   $large-screen: 50em !default;
   align-items: center;
@@ -22,26 +26,18 @@
   background-position: right;
   background-size: none;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   min-height: 100vh;
-  padding: 2em;
+  padding: 6em;
 
   @include media($large-screen) {
     background-size: cover;
     background-position: left;
-    justify-content: flex-start;
   }
 
   .hero-content {
     max-width: 20em;
-    text-align: center;
 
-    @include media($large-screen) {
-      text-align: left;
-    }
   }
 
-  .hero-logo {
-    margin: auto;
-  }
 }
