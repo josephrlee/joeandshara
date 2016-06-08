@@ -16,7 +16,13 @@
 // INTRO
 // ========================================================
 #joe--shara {
-  font-size: em(36px);
+  font-size: modular-scale(6);
+  line-height: modular-scale(-1);
+  margin-top: $small-spacing;
+}
+#save--date {
+  text-transform: uppercase;
+  font-size: modular-scale(-1);
 }
 .hero {
   $large-screen: 50em !default;
