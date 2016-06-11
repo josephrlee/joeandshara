@@ -14,8 +14,8 @@
 
 /* Typography */
 
-form li {
-  padding: 6px 0 8px;
+form#form2 li {
+  padding: 6px 0 8px !important;
 }
 form li div label, form li span label {
   font-size: 16px !important;
