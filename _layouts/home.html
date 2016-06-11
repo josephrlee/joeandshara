@@ -4,10 +4,10 @@ footer_scripts: "<script type='text/javascript' src='/assets/js/home.js'></scrip
 ---
 
 <section class="hero">
-  <div class="hero-content">
-    <h2 id="save--date">{{page.title}}</h2>
+  <main>
+    <h2 class="title">{{page.title}}</h2>
+    <h3 class="date">{{ page.event_date | date: '%B %d, %Y' }}</h3>
     {{ content }}
     {% include form.html %}
-    <p class="date">{{ event_date }}</p>
-  </div>
+  </main>
 </section>
