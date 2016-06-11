@@ -20,7 +20,9 @@ form#form2 li {
 form li div label, form li span label {
   font-size: 16px !important;
 }
-
+input.text, input.search, textarea.textarea {
+  border: solid 1px #9A9893 !important;
+}
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
   background-color: #E1F6DE;

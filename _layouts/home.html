@@ -3,11 +3,14 @@ layout: default
 footer_scripts: "<script type='text/javascript' src='/assets/js/home.js'></script>"
 ---
 
-<section class="hero">
-  <main>
+  <header>
     <h2 class="title">{{page.title}}</h2>
     <h3 class="date">{{ page.event_date | date: '%B %d, %Y' }}</h3>
+  </header>
+  <main>
     {{ content }}
     {% include form.html %}
   </main>
-</section>
+  <footer>
+    {{ footer }}
+  </footer>

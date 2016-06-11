@@ -18,13 +18,32 @@
 * {
   box-sizing: border-box;
 }
+
+// BACKGROUND
+// ========================================================
+
+body {
+ background: url("#{$img-path}/hero-banner.jpg");
+ @include image-2x("#{$img-path}/hero-banner_2x.jpg");
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+}
+
 // LAYOUT
 // ========================================================
 
 section {
   @include outer-container;
-  aside { @include span-columns(3); }
-  article { @include span-columns(9); }
+  main { @include span-columns(6); }
+  aside { @include span-columns(6); }
+}
+header {
+  padding: $gutter 0;
+}
+#wufoo-mv5m2z80dorb0i {
+
 }
 
 // INTRO
@@ -39,12 +58,4 @@ section {
 }
 .date {
   text-transform: uppercase;
-}
- body {
-  background: url("#{$img-path}/hero-banner.jpg");
-  @include image-2x("#{$img-path}/hero-banner_2x.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
