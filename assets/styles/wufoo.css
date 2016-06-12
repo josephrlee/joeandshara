@@ -25,7 +25,13 @@ form#form2 input.text, input.search, textarea.textarea {
   border-bottom: solid 2px #9A9893 !important;
   background: rgba(0,0,0,.05) !important;
   background-image: none !important;
-  padding: 5px 10px !important;
+  padding: 6px 10px !important;
+  outline: none;
+}
+
+form#form2 input.text:focus, input.search:focus, textarea.textarea:focus {
+  outline: none !important;
+  border-color: #FD9442;
 }
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
