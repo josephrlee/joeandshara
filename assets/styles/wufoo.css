@@ -38,6 +38,10 @@ form#form2 input.text, input.search, textarea.textarea, select.select{
   transition: all 0.30s ease-in-out;
 }
 
+select.select {
+  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-apperance: none;
+}
 form#form2 input.text:focus, input.search:focus, textarea.textarea:focus,  select.select:focus {
   outline: none !important;
   border-bottom-color: #FD9442 !important;
