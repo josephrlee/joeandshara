@@ -72,7 +72,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 
 /* Errors */
 
-#errorLi, .error-container {
+form#form2 li#errorLi, form#form2 li.error-container {
   border-radius: 0 !important;
   padding: 10px !important;
   text-align: left;
@@ -81,9 +81,9 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 #errorMsg b {
   border-radius: 0 !important;
 }
-form li.error {
+form#form2 li.error {
   background-color: none !important;
 }
-form li.error input {
+form#form2 li.error input {
   background-color: #FFDFDF !important;
 }
