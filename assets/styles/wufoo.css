@@ -10,7 +10,7 @@
 /* - - - Default - - - */
 
 /* Logo */
-#logo, .powertiny {display: none !important;}
+#logo, .powertiny, form span.req {display: none !important;}
 
 /* Layout */
 
