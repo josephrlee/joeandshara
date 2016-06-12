@@ -21,11 +21,11 @@ form li div label, form li span label {
   font-size: 16px !important;
 }
 form#form2 input.text, input.search, textarea.textarea {
-  background: none;
-  border: none;
-  border-bottom: solid 2px #9A9893;
-  background: rgba(0,0,0,.05);
-  padding: 5px 10px;
+  border: none !important;
+  border-bottom: solid 2px #9A9893 !important;
+  background: rgba(0,0,0,.05) !important;
+  background-image: none !important;
+  padding: 5px 10px !important;
 }
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
