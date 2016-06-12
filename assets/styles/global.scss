@@ -36,8 +36,11 @@ body {
 
 section {
   @include outer-container;
+  padding: $gutter;
+  @include media($large-screen) {
   main { @include span-columns(6); }
   aside { @include span-columns(6); }
+}
 }
 header {
   padding: $gutter 0;
