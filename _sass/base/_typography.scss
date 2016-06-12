@@ -12,9 +12,31 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
+  color: $header-font-color;
   font-size: modular-scale(1);
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
+}
+h1 {
+  font-size: 6vw;
+}
+h2 {
+  font-size: 5vw;
+}
+h3 {
+  font-size: 3vmin;
+  @include media($small-screen) {
+    font-size: modular-scale(2);
+  }
+}
+h4 {
+  font-size: 3vw;
+}
+h5 {
+  font-size: modular-scale(2);
+}
+h6 {
+  font-size: modular-scale(1);
 }
 
 p {

@@ -5,39 +5,57 @@
 
 @import "normalize";
 @import "bourbon/bourbon";
-@import "base/base";
 @import "neat/neat";
+@import "base/base";
 
+@mixin image-2x($image) {
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    background-image: url($image);
+  }
+}
 
 * {
   box-sizing: border-box;
 }
 
+// BACKGROUND
+// ========================================================
+
+body {
+ background: url("#{$img-path}/hero-banner.jpg");
+ @include image-2x("#{$img-path}/hero-banner_2x.jpg");
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+}
+
+// LAYOUT
+// ========================================================
+
+section {
+  @include outer-container;
+  main { @include span-columns(6); }
+  aside { @include span-columns(6); }
+}
+header {
+  padding: $gutter 0;
+}
+#wufoo-mv5m2z80dorb0i {
+
+}
+
 // INTRO
 // ========================================================
 #joe--shara {
-  font-size: em(36px);
+  line-height: modular-scale(-1);
+  margin-top: 2rem;
 }
-.hero {
-  $large-screen: 50em !default;
-  align-items: center;
-  background: url("#{$img-path}/hero-banner.jpg");
-  @include retina-image(#{$img-path}/hero-banner, cover);
-  background-position: right;
-  background-size: none;
-  display: flex;
-  justify-content: left;
-  min-height: 100vh;
-  padding: 6em;
-
-  @include media($large-screen) {
-    background-size: cover;
-    background-position: left;
-  }
-
-  .hero-content {
-    max-width: 20em;
-
-  }
-
+.title  {
+  text-transform: uppercase;
+  font-size: 2vw;
+}
+.date {
+  text-transform: uppercase;
 }
