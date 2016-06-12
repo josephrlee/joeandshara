@@ -9,7 +9,7 @@ Last Updated : June 5, 2016
 
 /* Hide Stuff */
 
-#logo, .powertiny, form#form2 span.req, form#form2 li.error p.error {
+#logo, .powertiny, form#form2 span.req, form#form2 li.error p.error, .create-message, .start-cta {
    display: none !important;
 }
 /* Layout */
