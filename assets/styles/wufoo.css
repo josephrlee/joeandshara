@@ -13,7 +13,7 @@
 #logo, .powertiny, form#form2 span.req, form#form2 li.error p.error {display: none !important;}
 
 /* Layout */
-@media screen and (min-width: 760px) {
+@media only screen and (min-width: 760px) {
 form li.complex div span.left, form li.complex div span.right {
   width: 47% !important;
   }
