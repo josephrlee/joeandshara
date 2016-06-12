@@ -69,3 +69,12 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     opacity: 0.5; }
     button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
       background-color: #E1F6DE; }
+
+/* Errors */
+
+#errorLi, .error-container {
+  border-radius: 0 !important;
+  padding: 10px;
+  text-align: left;
+  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
