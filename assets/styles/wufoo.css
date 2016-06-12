@@ -31,7 +31,7 @@ form#form2 input.text, input.search, textarea.textarea {
 
 form#form2 input.text:focus, input.search:focus, textarea.textarea:focus {
   outline: none !important;
-  border-color: #FD9442;
+  border-color: #FD9442 !important;
 }
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
