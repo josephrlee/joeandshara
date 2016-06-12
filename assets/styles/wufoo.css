@@ -9,8 +9,8 @@
 
 /* - - - Default - - - */
 
-/* Logo */
-#logo, .powertiny, form span.req {display: none !important;}
+/* Hide Stuff */
+#logo, .powertiny, form#form2 span.req, form#form2 li.error p.error {display: none !important;}
 
 /* Layout */
 
@@ -82,8 +82,14 @@ form#form2 li#errorLi, form#form2 li.error-container {
   border-radius: 0 !important;
 }
 form#form2 li.error {
-  background-color: none !important;
+  background-color: transparent; !important;
 }
 form#form2 li.error input {
-  background-color: #FFDFDF !important;
+  background-color: rgba(255, 223, 223, .7) !important;
+}
+#errorMsgLbl {
+  font-size: 140%;
+}
+#errorMsg {
+  font-size: 120%;
 }
