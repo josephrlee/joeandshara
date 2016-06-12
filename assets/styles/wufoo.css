@@ -12,6 +12,14 @@
 /* Logo */
 #logo, .powertiny {display: none !important;}
 
+/* Layout */
+
+form li.complex div span.left, form li.complex div span.right {
+  width: 47% !important;
+}
+.fn {
+  margin-right: 10px;
+}
 /* Typography */
 
 form#form2 li {
@@ -27,6 +35,7 @@ form#form2 input.text, input.search, textarea.textarea {
   background-image: none !important;
   padding: 6px 10px !important;
   outline: none;
+  transition: all 0.30s ease-in-out;
 }
 
 form#form2 input.text:focus, input.search:focus, textarea.textarea:focus {
