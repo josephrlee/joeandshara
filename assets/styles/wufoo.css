@@ -9,9 +9,10 @@ Last Updated : June 5, 2016
 
 /* Hide Stuff */
 
-#logo, .powertiny, form#form2 span.req, form#form2 li.error p.error, .create-message, .start-cta {
+#logo, .powertiny, form#form2 span.req, form#form2 li.error p.error, .create-message, .start-cta, .embed .confirm .logo-container {
    display: none !important;
 }
+
 /* Layout */
 form#form2 li#fo2li10 span input.fn {
   margin-right: 10px;
@@ -104,4 +105,11 @@ form#form2 li.error input {
 }
 #errorMsg {
    font-size: 120%;
+}
+
+/* Submit */
+
+.embed .confirm h2.freeHeading {
+  text-align: left !important;
+  margin: 0 !important;
 }
