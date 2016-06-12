@@ -82,7 +82,7 @@ form#form2 li#errorLi, form#form2 li.error-container {
   border-radius: 0 !important;
 }
 form#form2 li.error {
-  background-color: transparent; !important;
+  background-color: transparent !important;
 }
 form#form2 li.error input {
   background-color: rgba(255, 223, 223, .7) !important;
