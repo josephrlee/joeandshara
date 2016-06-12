@@ -1,110 +1,106 @@
- /*- - - - - - - - - - - - - - - - - - - - -
+/*- - - - - - - - - - - - - - - - - - - - -
 
- Title : Custom Wufoo Form Styles for Joe & Shara's Wedding!
- URL : http://joeandshara.com
+Title : Custom Wufoo Form Styles for Joe & Shara's Wedding!
+URL : http://joeandshara.com
 
- Last Updated : June 5, 2016
+Last Updated : June 5, 2016
 
 - - - - - - - - - - - - - - - - - - - - -
 
-/* - - - Default - - - */
-
 /* Hide Stuff */
-#logo, .powertiny, form#form2 span.req, form#form2 li.error p.error {display: none !important;}
 
+#logo, .powertiny, form#form2 span.req, form#form2 li.error p.error {
+   display: none !important;
+}
 /* Layout */
 
+@media only screen and (max-width: 480px) {
+   form#form2 li.complex div span.left, form#form2 li.complex div span.right {
+       width: 100% !important;
+   }
+}
+form#form2 li.complex div span.left, form#form2 li.complex div span.right {
+   width: 47% !important;
+}
 form#form2 li input.fn {
-  margin-right: 10px !important;
+   margin-right: 10px !important;
 }
 /* Typography */
 
 form#form2 li {
-  padding: 6px 0 8px;
+   padding: 6px 0 8px;
 }
 form li div label, form li span label {
-  font-size: 16px !important;
+   font-size: 16px !important;
 }
-form#form2 input.text, input.search, textarea.textarea, select.select{
-  border: none !important;
-  border-bottom: solid 2px #9A9893 !important;
-  background: rgba(0,0,0,.05) !important;
-  background-image: none !important;
-  padding: 6px 10px !important;
-  outline: none;
-  transition: all 0.30s ease-in-out;
+form#form2 input.text, input.search, textarea.textarea, select.select {
+   border: none !important;
+   border-bottom: solid 2px #9A9893 !important;
+   background: rgba(0, 0, 0, .05) !important;
+   background-image: none !important;
+   padding: 6px 10px !important;
+   outline: none;
+   transition: all 0.30s ease-in-out;
 }
-
 select.select {
-  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -webkit-appearance: none;
-  border-radius: 0;
+   font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   -webkit-appearance: none;
+   border-radius: 0;
 }
-form#form2 input.text:focus, input.search:focus, textarea.textarea:focus,  select.select:focus {
-  outline: none !important;
-  border-bottom-color: #FD9442 !important;
+form#form2 input.text:focus, input.search:focus, textarea.textarea:focus, select.select:focus {
+   outline: none !important;
+   border-bottom-color: #FD9442 !important;
 }
-
 button, input[type="button"], input[type="reset"], input[type="submit"] {
-  appearance: none;
-  background-color: #E1F6DE;
-  border: 0;
-  border-radius: 3px;
-  color: #525557;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.25em;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 600;
-  line-height: 1;
-  padding: 0.75em 1.5em;
-  text-decoration: none;
-  transition: background-color 150ms ease;
-  user-select: none;
-  vertical-align: middle;
-  white-space: nowrap; }
-  button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
-    background-color: #b4c5b2; }
-  button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
-    cursor: not-allowed;
-    opacity: 0.5; }
-    button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
-      background-color: #E1F6DE; }
-
+   appearance: none;
+   background-color: #E1F6DE;
+   border: 0;
+   border-radius: 3px;
+   color: #525557;
+   cursor: pointer;
+   display: inline-block;
+   font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 1.25em;
+   -webkit-font-smoothing: antialiased;
+   font-weight: 600;
+   line-height: 1;
+   padding: 0.75em 1.5em;
+   text-decoration: none;
+   transition: background-color 150ms ease;
+   user-select: none;
+   vertical-align: middle;
+   white-space: nowrap;
+}
+button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+   background-color: #b4c5b2;
+}
+button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
+   cursor: not-allowed;
+   opacity: 0.5;
+}
+button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
+   background-color: #E1F6DE;
+}
 /* Errors */
 
 form#form2 li#errorLi, form#form2 li.error-container {
-  border-radius: 0 !important;
-  padding: 10px !important;
-  text-align: left;
-  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   border-radius: 0 !important;
+   padding: 10px !important;
+   text-align: left;
+   font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #errorMsg b {
-  border-radius: 0 !important;
+   border-radius: 0 !important;
 }
 form#form2 li.error {
-  background-color: transparent !important;
+   background-color: transparent !important;
 }
 form#form2 li.error input {
-  background-color: rgba(255, 223, 223, .7) !important;
+   background-color: rgba(255, 223, 223, .7) !important;
 }
 #errorMsgLbl {
-  font-size: 140%;
+   font-size: 140%;
 }
 #errorMsg {
-  font-size: 120%;
-}
-
-
-@media only screen and (max-width: 480px) {
-  form#form2 li.complex div span.left, form#form2 li.complex div span.right {
-    width: 100% !important;
-    }
-}
-
-@media (min-width: 760px) {
-form#form2 li.complex div span.left, form#form2 li.complex div span.right {
-  width: 47% !important;
-  }
+   font-size: 120%;
 }
