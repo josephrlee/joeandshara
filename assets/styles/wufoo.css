@@ -13,11 +13,7 @@
 #logo, .powertiny, form#form2 span.req, form#form2 li.error p.error {display: none !important;}
 
 /* Layout */
-@media (min-width: 760px) {
-form#form2 li.complex div span.left, form#form2 li.complex div span.right {
-  width: 47% !important;
-  }
-}
+
 form#form2 li input.fn {
   margin-right: 10px !important;
 }
@@ -98,4 +94,17 @@ form#form2 li.error input {
 }
 #errorMsg {
   font-size: 120%;
+}
+
+
+@media only screen and (max-width: 480px) {
+  form#form2 li.complex div span.left, form#form2 li.complex div span.right {
+    width: 100% !important;
+    }
+}
+
+@media (min-width: 760px) {
+form#form2 li.complex div span.left, form#form2 li.complex div span.right {
+  width: 47% !important;
+  }
 }
