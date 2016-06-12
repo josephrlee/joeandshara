@@ -28,7 +28,7 @@ form#form2 li {
 form li div label, form li span label {
   font-size: 16px !important;
 }
-form#form2 input.text, input.search, textarea.textarea {
+form#form2 input.text, input.search, textarea.textarea, select.select{
   border: none !important;
   border-bottom: solid 2px #9A9893 !important;
   background: rgba(0,0,0,.05) !important;
@@ -38,7 +38,7 @@ form#form2 input.text, input.search, textarea.textarea {
   transition: all 0.30s ease-in-out;
 }
 
-form#form2 input.text:focus, input.search:focus, textarea.textarea:focus {
+form#form2 input.text:focus, input.search:focus, textarea.textarea:focus,  select.select:focus {
   outline: none !important;
   border-bottom-color: #FD9442 !important;
 }
