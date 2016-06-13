@@ -72,7 +72,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
    line-height: 1;
    padding: 1em 1.75em;
    text-decoration: none;
-   transition: background-color 150ms ease;
+   transition: all 0.30s ease-in-out;
    user-select: none;
    vertical-align: middle;
    white-space: nowrap;
