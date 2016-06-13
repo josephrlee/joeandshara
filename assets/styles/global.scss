@@ -8,17 +8,11 @@
 @import "neat/neat";
 @import "base/base";
 
-$gradient: linear-gradient(to right, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 00) 60%);
-
-@mixin image-2x($image) {
-   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
-    background-image: ($gradient), url($image);
-  }
-}
 * {
   box-sizing: border-box;
 }
-// BACKGROUND
+
+// LAYOUT
 // ========================================================
 body {
   background: $gradient, url("#{$img-path}/hero-banner.jpg");
@@ -28,8 +22,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-// LAYOUT
-// ========================================================
+
 section {
   @include outer-container;
   padding: $gutter $gutter*2;
@@ -44,34 +37,41 @@ section {
   min-height: 100vh;
   padding: $gutter 0;
 }
-header {
-  padding: $gutter 0;
-}
-
 // INTRO
 // ========================================================
-#joe--shara {
-  line-height: modular-scale(-1);
-  margin-top: 2rem;
+.intro {
+  padding: $gutter*3 0 $gutter;
+  h1 {
+    margin-bottom: 0;
+    font-size: 14vw;
+    line-height: 1;
+  }
 }
+.date,
 .title {
   text-transform: uppercase;
-  font-size: 2vw;
+  font-size: 4vmin;
+  @include media($medium-screen) {
+    font-size: 3vw;
+    text-indent: $gutter;
+  }
+  @include media($large-screen) {
+    font-size: 2vw;
+  }
+}
+.title {
+  margin: 0;
 }
 .date {
-  text-transform: uppercase;
+  color: $action-color;
 }
-
-// MAP
+// Form
 // ========================================================
-
 .form p {
   font-size: modular-scale(1);
 }
-
 // MAP
 // ========================================================
-
 .google-maps {
   height: 0;
   overflow: hidden;
@@ -88,12 +88,10 @@ header {
 .scrolloff {
   pointer-events: none;
 }
-
-
 // COUNTDOWN
 // ========================================================
 .countdown {
-  margin: 0;
+  margin: $gutter 0;
   float: left;
   width: 100%;
   div {
@@ -101,16 +99,16 @@ header {
     float: left;
     margin-left: 2vw;
     font-size: 7.2vw;
-    font-weight: 100;
+    font-weight: bold;
     line-height: 1;
     text-align: right;
     font-style: normal;
     color: $action-color;
     span {
       display: block;
-      border-top: 1px solid #cecece;
-      padding-top: 40px;
-      margin-top: 10px;
+      border-top: 2px solid $base-border-color;
+      padding-top: $gutter/2;
+      margin-top: $gutter/2;
       font-size: 2vw;
       font-weight: light;
       text-transform: uppercase;

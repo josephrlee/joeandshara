@@ -22,7 +22,9 @@
   display: block;
   color: $action-color;
 }
-
+.genericon-expand:hover {
+  color: $action-color;
+}
 body {
   color: $base-font-color;
   font-family: $base-font-family;
@@ -40,7 +42,7 @@ h6 {
   color: $header-font-color;
   font-size: modular-scale(1);
   line-height: $heading-line-height;
-  margin: 0 0 $small-spacing;
+  margin: 0 0 $small-spacing/2;
 }
 h1 {
   font-size: 6vw;
@@ -49,7 +51,7 @@ h2 {
   font-size: 5vw;
 }
 h3 {
-  font-size: 3vmin;
+  font-size: 3vw;
   @include media($small-screen) {
     font-size: modular-scale(2);
   }
