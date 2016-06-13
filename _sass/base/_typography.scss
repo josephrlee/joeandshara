@@ -1,3 +1,30 @@
+// Social Network Icons
+@font-face {
+  font-family: 'Genericons';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/genericons/Genericons.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/genericons/Genericons.woff") format("woff"), url("/assets/fonts/genericons/Genericons.ttf") format("truetype"), url("/assets/fonts/genericons/Genericons.svg#genericonsregular") format("svg");
+}
+
+/** ARROWS **/
+.genericon-expand:before {
+  -webkit-font-smoothing: antialiased;
+  content: '\f431';
+  display: block;
+  font: normal 48px / 1 'Genericons';
+  vertical-align: middle;
+}
+.genericon-expand {
+  cursor: pointer;
+  animation: fade 1s infinite;
+  -webkit-animation: fade 1s infinite;
+  text-decoration: none;
+  display: block;
+  color: $action-color;
+}
+.genericon-expand:hover {
+  color: $action-color;
+}
 body {
   color: $base-font-color;
   font-family: $base-font-family;
@@ -15,7 +42,7 @@ h6 {
   color: $header-font-color;
   font-size: modular-scale(1);
   line-height: $heading-line-height;
-  margin: 0 0 $small-spacing;
+  margin: 0 0 $small-spacing/2;
 }
 h1 {
   font-size: 6vw;
@@ -24,7 +51,7 @@ h2 {
   font-size: 5vw;
 }
 h3 {
-  font-size: 3vmin;
+  font-size: 3vw;
   @include media($small-screen) {
     font-size: modular-scale(2);
   }

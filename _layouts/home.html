@@ -1,16 +1,38 @@
 ---
 layout: default
-footer_scripts: "<script type='text/javascript' src='/assets/js/home.js'></script>"
 ---
 
-  <header>
-    <h2 class="title">{{page.title}}</h2>
-    <h3 class="date">{{ page.event_date | date: '%B %d, %Y' }}</h3>
-  </header>
-  <main>
+<header class="featureWrap intro">
+  <h2 class="title">{{page.title}}</h2>
+  <h3 class="date">{{ page.event_date | date: '%B %d, %Y' }}</h3>
+  <h1>Joe & Shara</h1>
+  <a class="genericon genericon-expand" href="#form"></a>
+</header>
+<main>
+  <div class="form featureWrap" id="form">
     {{ content }}
     {% include form.html %}
-  </main>
-  <footer>
-    {{ footer }}
-  </footer>
+    <a class="genericon genericon-expand" href="#venue"></a>
+  </div>
+  <div class="featureWrap location" id="venue">
+    {{ page.location_text | markdownify }}
+    <div class="google-maps" id="map">
+      <iframe
+        id="google_map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2686.1699072205665!2d-122.32707554882363!3d47.68112017908753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490146d3be21ac5%3A0x30716870a6a9a050!2sGreat+Hall+at+Green+Lake!5e0!3m2!1sen!2sus!4v1465802885124"
+        width="600"
+        height="450"
+        frameborder="0"
+        style="border:0"
+        allowfullscreen></iframe>
+    </div>
+    <a class="genericon genericon-expand" href="#countdown"></a>
+  </div>
+  <div class="featureWrap" id="countdown">
+    <h3>Time Left To Party!</h3>
+    <div class="countdown"></div>
+  </div>
+</main>
+<footer>
+  <p>#JoeShara2016</p>
+</footer>

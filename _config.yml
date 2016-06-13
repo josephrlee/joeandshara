@@ -9,3 +9,5 @@ collections:
     title: Uploads
     output: true
 Site Colors: 
+gems:
+- jekyll-seo-tag
