@@ -32,7 +32,7 @@ body {
 // ========================================================
 section {
   @include outer-container;
-  padding: $gutter;
+  padding: $gutter $gutter*2;
   @include media($medium-screen) {
      @include span-columns(8);
   }
@@ -40,10 +40,14 @@ section {
      @include span-columns(6);
   }
 }
+.featureWrap {
+  min-height: 100vh;
+  padding: $gutter 0;
+}
 header {
   padding: $gutter 0;
 }
-#wufoo-mv5m2z80dorb0i {}
+
 // INTRO
 // ========================================================
 #joe--shara {
@@ -57,6 +61,10 @@ header {
 .date {
   text-transform: uppercase;
 }
+
+// MAP
+// ========================================================
+
 .google-maps {
   height: 0;
   overflow: hidden;
@@ -72,14 +80,10 @@ header {
 .scrolloff {
   pointer-events: none;
 }
-.google-maps iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
-}
-/** COUNTDOWN **/
+
+
+// COUNTDOWN
+// ========================================================
 .countdown {
   margin: 0;
   float: left;
@@ -108,17 +112,4 @@ header {
   div:first-child {
     margin-left: 0;
   }
-}
-
-
-.genericon-expand {
-  margin: 0 auto;
-}
-a.genericon-expand {
-  color: $action-color;
-  cursor: pointer;
-  animation: fade 1s infinite;
-  -webkit-animation: fade 1s infinite;
-  display: block;
-  text-decoration: none;
 }

@@ -13,9 +13,14 @@
   display: block;
   font: normal 48px / 1 'Genericons';
   vertical-align: middle;
-  padding: 0.5em 0;
+}
+.genericon-expand {
   cursor: pointer;
-  text-align: center;
+  animation: fade 1s infinite;
+  -webkit-animation: fade 1s infinite;
+  text-decoration: none;
+  display: block;
+  color: $action-color;
 }
 
 body {
