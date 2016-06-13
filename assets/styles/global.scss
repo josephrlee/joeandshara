@@ -8,6 +8,11 @@
 @import "neat/neat";
 @import "base/base";
 
+$visual-grid: true;
+$visual-grid-color: red;
+$visual-grid-index: front;
+$visual-grid-opacity: 0.1;
+
 @mixin image-2x($image) {
   @media (-webkit-min-device-pixel-ratio: 2),
          (min-resolution: 192dpi) {
@@ -39,7 +44,6 @@ section {
   padding: $gutter;
   @include media($large-screen) {
   main { @include span-columns(6); }
-  aside { @include span-columns(6); }
 }
 }
 header {
@@ -62,3 +66,60 @@ header {
 .date {
   text-transform: uppercase;
 }
+
+
+
+.google-maps {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%; // For ratio 16:9. 75% if ratio is 4:3
+  position: relative;
+
+  embed,
+  object,
+  iframe {
+    @include position(absolute, 0 null null 0);
+    @include size(100%);
+  }
+}
+
+.scrolloff {
+    pointer-events: none;
+  }
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  /** COUNTDOWN **/
+  .countdown {
+    margin: 0;
+    float: left;
+    width: 100%;
+    div {
+      display: block;
+      float: left;
+      margin-left: 2vw;
+      font-size: 7.2vw;
+      font-weight: 100;
+      line-height: 1;
+      text-align: right;
+      font-style: normal;
+      color: $action-color;
+      span {
+        display: block;
+        border-top: 1px solid #cecece;
+        padding-top: 40px;
+        margin-top: 10px;
+        font-size: 2vw;
+        font-weight: light;
+        text-transform: uppercase;
+        text-align: left;
+      }
+    }
+    div:first-child {
+      margin-left: 0;
+    }
+  }
