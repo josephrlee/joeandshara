@@ -2,15 +2,17 @@
 layout: default
 ---
 
+
 <header>
   <h2 class="title">{{page.title}}</h2>
   <h3 class="date">{{ page.event_date | date: '%B %d, %Y' }}</h3>
-  <a class="genericon genericon-expandarrow expandarrow" href="#joe--shara"></a>
+  <h1>Joe & Shara</h1>
+  <a class="genericon genericon-expand" href="#joe--shara"></a>
 </header>
 <main>
   {{ content }}
   {% include form.html %}
-  <a class="genericon genericon-expandarrow expandarrow" href="#map"></a>
+  <a class="genericon genericon-expand" href="#map"></a>
   <div class="google-maps" id="map">
     <iframe
       id="google_map"
@@ -21,7 +23,7 @@ layout: default
       style="border:0"
       allowfullscreen></iframe>
   </div
-  <a class="genericon genericon-expandarrow expandarrow" href="#countdown"></a>
+  <a class="genericon genericon-expand" href="#countdown"></a>
   <hr/>
   <h3>Time Left To Party!</h3>
   <div class="countdown"></div>

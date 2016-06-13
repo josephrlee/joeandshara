@@ -1,3 +1,23 @@
+// Social Network Icons
+@font-face {
+  font-family: 'Genericons';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/genericons/Genericons.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/genericons/Genericons.woff") format("woff"), url("/assets/fonts/genericons/Genericons.ttf") format("truetype"), url("/assets/fonts/genericons/Genericons.svg#genericonsregular") format("svg");
+}
+
+/** ARROWS **/
+.genericon-expand:before {
+  -webkit-font-smoothing: antialiased;
+  content: '\f431';
+  display: block;
+  font: normal 48px / 1 'Genericons';
+  vertical-align: middle;
+  padding: 0.5em 0;
+  cursor: pointer;
+  text-align: center;
+}
+
 body {
   color: $base-font-color;
   font-family: $base-font-family;
