@@ -15,7 +15,7 @@ layout: default
     <a class="genericon genericon-expand" href="#venue"></a>
   </div>
   <div class="featureWrap location" id="venue">
-    {{ location | markdown }}
+    {{ page.location_text | markdownify }}
     <p><a href="https://goo.gl/maps/4BZfy8oDGy12" title="View on Google Maps">7220 Woodlawn Ave NE, Seattle, WA 98115</a></p>
 
     <div class="google-maps" id="map">
