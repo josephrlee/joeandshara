@@ -37,12 +37,13 @@ form li div label, form li span label {
 }
 form#form2 input.text, input.search, textarea.textarea, select.select {
    border: none !important;
-   border-bottom: solid 2px #9A9893 !important;
+   border-bottom: solid 2px #E1F6DE !important;
    background: rgba(0, 0, 0, .05) !important;
    background-image: none !important;
    padding: 6px 10px !important;
    outline: none;
    transition: all 0.30s ease-in-out;
+   -webkit-appearance: none;
 }
 select.select {
    font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
