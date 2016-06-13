@@ -37,7 +37,7 @@ section {
      @include span-columns(8);
   }
   @include media($large-screen) {
-     @include span-columns(6);
+     @include span-columns(7);
   }
 }
 .featureWrap {
@@ -65,11 +65,19 @@ header {
 // MAP
 // ========================================================
 
+.form p {
+  font-size: modular-scale(1);
+}
+
+// MAP
+// ========================================================
+
 .google-maps {
   height: 0;
   overflow: hidden;
   padding-bottom: 56.25%; // For ratio 16:9. 75% if ratio is 4:3
   position: relative;
+  margin-bottom: $gutter;
   embed,
   iframe,
   object {
