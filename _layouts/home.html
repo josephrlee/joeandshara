@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<header class="featureWrap">
+<header class="featureWrap intro">
   <h2 class="title">{{page.title}}</h2>
   <h3 class="date">{{ page.event_date | date: '%B %d, %Y' }}</h3>
   <h1>Joe & Shara</h1>
@@ -12,11 +12,14 @@ layout: default
   <div class="form featureWrap" id="form">
     {{ content }}
     {% include form.html %}
-    <a class="genericon genericon-expand" href="#map"></a>
+    <a class="genericon genericon-expand" href="#venue"></a>
   </div>
-  <div class="featureWrap">
-    <h3>Location</h3>
-    <p>Great Hall at Green Lake</p>
+  <div class="featureWrap location" id="venue">
+    <h2>Saturday Evening</h2>
+    <h1>October 22, 2016</h1>
+    <h3>Great hall at Greenlake</h3>
+    <p><a href="https://goo.gl/maps/4BZfy8oDGy12" title="View on Google Maps">7220 Woodlawn Ave NE, Seattle, WA 98115</a></p>
+
     <div class="google-maps" id="map">
       <iframe
         id="google_map"
