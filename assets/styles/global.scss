@@ -98,8 +98,11 @@ section {
   div {
     display: block;
     float: left;
-    margin-left: 2vw;
-    font-size: 7.2vw;
+    margin-left: 3vw;
+    font-size: 13vw;
+    @include media($medium-screen) {
+      font-size: 6.8vw;
+    }
     font-weight: bold;
     line-height: 1;
     text-align: right;
@@ -110,7 +113,10 @@ section {
       border-top: 2px solid $base-border-color;
       padding-top: $gutter/2;
       margin-top: $gutter/2;
-      font-size: 2vw;
+      font-size: 3.2vw;
+      @include media($medium-screen) {
+        font-size: 2vw;
+      }
       font-weight: light;
       text-transform: uppercase;
       text-align: left;
