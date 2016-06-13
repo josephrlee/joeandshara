@@ -41,6 +41,7 @@ form#form2 input.text, input.search, textarea.textarea, select.select {
    background: rgba(0, 0, 0, .06) !important;
    background-image: none !important;
    padding: 6px 10px !important;
+   border-radius: 0;
    outline: none;
    transition: all 0.30s ease-in-out;
    -webkit-appearance: none;
@@ -74,6 +75,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
    user-select: none;
    vertical-align: middle;
    white-space: nowrap;
+   -webkit-appearance: none;
 }
 button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
    background-color: #b4c5b2;
