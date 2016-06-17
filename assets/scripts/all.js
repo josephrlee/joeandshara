@@ -17,7 +17,7 @@
             $('#google_map').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
         });
 
-        var endDate = "October 22, 2016 18:00:00";
+        var endDate = "October 22, 2016 17:00:00";
         $('.countdown').countdown({
             date: endDate,
             render: function(data) {
