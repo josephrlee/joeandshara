@@ -31,10 +31,11 @@ form#form2 li.complex div span.left, form#form2 li.complex div span.right {
       min-width: 90%;
     }
     select.select {
-      width: 95%;
-      max-width: 95%;
-      min-width: 95%;
+      width: 96%;
+      max-width: 96%;
+      min-width: 96%;
     }
+    
 }
 
 /* Typography */
