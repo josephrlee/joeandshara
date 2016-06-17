@@ -21,7 +21,7 @@ form#form2 li#fo2li10 span input.fn {
 form#form2 li.complex div span.left, form#form2 li.complex div span.right {
     width: 47% !important;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
     form#form2 li.complex div span.left, form#form2 li.complex div span.right, form#form2 li#fo2li10 span {
         width: 100% !important;
     }
