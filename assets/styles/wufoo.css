@@ -39,6 +39,12 @@ form li span label {
     margin-top: -75px;
     padding-bottom: 75px;
 }
+.wufoo label.desc {
+  margin-bottom: 2em;
+}
+#title9 {
+  margin-bottom: 0;
+}
 form#form2 input.text, input.search, textarea.textarea, select.select {
     border: none !important;
     border-bottom: solid 2px #E1F6DE !important;
