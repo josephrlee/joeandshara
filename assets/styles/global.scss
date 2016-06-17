@@ -26,6 +26,9 @@ body {
 section {
   @include outer-container;
   padding: $gutter;
+  @include media($small-screen) {
+     padding: $gutter/2;
+  }
   @include media($medium-screen) {
      @include span-columns(8);
      padding: $gutter $gutter*2;
