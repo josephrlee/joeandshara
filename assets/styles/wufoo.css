@@ -25,6 +25,16 @@ form#form2 li.complex div span.left, form#form2 li.complex div span.right {
     form#form2 li.complex div span.left, form#form2 li.complex div span.right, form#form2 li#fo2li10 span {
         width: 100% !important;
     }
+    input.text, input.search, textarea.textarea {
+      width: 90%;
+      max-width: 90%;
+      min-width: 90%;
+    }
+    select.select {
+      width: 95%;
+      max-width: 95%;
+      min-width: 95%;
+    }
 }
 
 /* Typography */
