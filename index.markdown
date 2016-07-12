@@ -10,7 +10,7 @@ location_text: |-
   ### Great hall at Greenlake
 
   [7220 Woodlawn Ave NE, Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")
-layout: home
+layout: rsvp
 ---
 
 ## *Invite you to celebrate their wedding.*
