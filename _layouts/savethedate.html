@@ -5,13 +5,13 @@ layout: default
 <header class="featureWrap intro">
   <h2 class="title">{{page.title}}</h2>
   <h3 class="date">{{ page.event_date | date: '%B %d, %Y' }}</h3>
-  <h1>Shara Liou <br/> + Joseph Lee</h1>
+  <h1>Joe & Shara</h1>
   <a class="genericon genericon-expand" href="#form"></a>
 </header>
 <main>
   <div class="form featureWrap" id="form">
     {{ content }}
-    {% include rsvp.html %}
+    {% include form.html %}
     <a class="genericon genericon-expand" href="#venue"></a>
   </div>
   <div class="featureWrap location" id="venue">
@@ -34,5 +34,5 @@ layout: default
   </div>
 </main>
 <footer>
-  <p>#JoeShara2016</p>
+  <p>#JoeSharaBig2016</p>
 </footer>
