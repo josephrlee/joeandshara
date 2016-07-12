@@ -13,6 +13,7 @@ location_text: |-
 layout: home
 ---
 
-### We're so excited to see you at our wedding!
+# Shara Liou\
+\+ Joseph Lee
 
-*Fill out the form below so we can send you an awesome paper invitation.*
+*Invite you to celebrate their marriage.* 
