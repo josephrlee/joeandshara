@@ -26,16 +26,18 @@ form li.complex div span.left, form li.complex div span.right {
         width: 100% !important;
     }
     input.text, input.search, textarea.textarea {
-      width: 90%;
-      max-width: 90%;
-      min-width: 90%;
+        width: 90%;
+        max-width: 90%;
+        min-width: 90%;
     }
     select.select {
-      width: 96%;
-      max-width: 96%;
-      min-width: 96%;
+        width: 96%;
+        max-width: 96%;
+        min-width: 96%;
     }
-
+}
+input.checkbox, input.radio {
+    margin-left: 4px;
 }
 
 /* Typography */
@@ -51,10 +53,10 @@ form li span label {
     padding-bottom: 75px;
 }
 .wufoo label.desc {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 #title9 {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 form input.text, input.search, textarea.textarea, select.select {
     border: none !important;
