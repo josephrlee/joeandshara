@@ -3,13 +3,13 @@ layout: default
 ---
 
 <header class="featureWrap intro">
-  <h1>Shara Liou <br/> + Joseph Lee</h1>
+  <h1><img src="assets/images/logo.svg" alt="Shara Liou + Joseph Lee" /></h1>
   {{ content }}
-  <a class="genericon genericon-expand" href="#form"></a>
+  <a class="genericon genericon-expand" href="#info"></a>
 </header>
 <main>
-  <div class="form featureWrap" id="form">
-    {% include rsvp.html %}
+  <div class="featureWrap info" id="info">
+    {{ page.info_text | markdownify }}
     <a class="genericon genericon-expand" href="#venue"></a>
   </div>
   <div class="featureWrap location" id="venue">
@@ -24,6 +24,10 @@ layout: default
         style="border:0"
         allowfullscreen></iframe>
     </div>
+    <a class="genericon genericon-expand" href="#form"></a>
+  </div>
+  <div class="featureWrap form" id="form">
+    {% include rsvp.html %}
     <a class="genericon genericon-expand" href="#countdown"></a>
   </div>
   <div class="featureWrap" id="countdown">
