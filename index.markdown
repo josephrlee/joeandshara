@@ -14,6 +14,6 @@ layout: home
 ---
 
 # Shara Liou\
-\+ Joseph Lee
+Joseph Lee
 
-*Invite you to celebrate their marriage.* 
+*Invite you to celebrate their marriage.*
