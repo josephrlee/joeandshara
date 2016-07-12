@@ -11,7 +11,7 @@ location_text: |-
 
   [7220 Woodlawn Ave NE, Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")
 info_text: 
-layout: default
+layout: savethedate
 ---
 
 ## *Invite you to celebrate their wedding.*
