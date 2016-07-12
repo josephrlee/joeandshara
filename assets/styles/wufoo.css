@@ -55,8 +55,7 @@ form li span label {
     margin-top: -75px;
     padding-bottom: 75px;
 }
-li[id^=fo] label[id^=title] + div span,
-li[id^=fo] label[id^=title] + span + span {
+#title1, #title10 {
     margin-bottom: 1em;
 }
 #title9 {
