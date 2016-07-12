@@ -55,7 +55,8 @@ form li span label {
     margin-top: -75px;
     padding-bottom: 75px;
 }
-.wufoo label.desc {
+li[id^=fo] label[id^=title] + div span,
+li[id^=fo] label[id^=title] + span + span {
     margin-bottom: 1em;
 }
 #title9 {
