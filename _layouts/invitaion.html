@@ -8,13 +8,10 @@ layout: default
   <a class="genericon genericon-expand" href="#info"></a>
 </header>
 <main>
-  <div class="featureWrap info" id="info">
-    {{ page.event_date | date: '%B %d, %Y' }}
-    <p>{{ page.event_info }}</p>
-    <a class="genericon genericon-expand" href="#venue"></a>
-  </div>
   <div class="featureWrap location" id="venue">
     {{ page.location_text | markdownify }}
+    <h3>{{ page.event_date | date: '%B %d, %Y' }}</h3>
+    <p>{{ page.event_info }}</p>
     <div class="google-maps" id="map">
       <iframe
         id="google_map"
@@ -28,6 +25,7 @@ layout: default
     <a class="genericon genericon-expand" href="#form"></a>
   </div>
   <div class="featureWrap form" id="form">
+    <h3>RSVP</h3>
     {% include rsvp.html %}
     <a class="genericon genericon-expand" href="#countdown"></a>
   </div>
