@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-Site Colors:
+Site Colors: 
 gems:
 - jekyll-seo-tag
-- kramdown 
+- kramdown
