@@ -9,7 +9,8 @@ layout: default
 </header>
 <main>
   <div class="featureWrap info" id="info">
-    {{ page.info_text | markdownify }}
+    {{ page.event_date | date: '%B %d, %Y' }}
+    <p>{{ page.event_info }}</p>
     <a class="genericon genericon-expand" href="#venue"></a>
   </div>
   <div class="featureWrap location" id="venue">
