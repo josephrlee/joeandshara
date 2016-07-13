@@ -10,7 +10,7 @@ location_text: |-
   ### Great Hall at Green Lake
 
   [7220 Woodlawn Ave NE, Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")
-Key: 
+info_text: 
 layout: invitaion
 ---
 
