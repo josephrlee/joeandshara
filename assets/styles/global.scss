@@ -136,3 +136,69 @@ section {
     margin-left: 0;
   }
 }
+// ADD TO CALENDAR
+// ========================================================
+  .addtocalendar var {
+    display: none;
+  }
+  .addtocalendar {
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .atcb-link {
+
+    &:before {
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font: normal 18px / 1 'Genericons';
+      vertical-align: top;
+      content: '\f305';
+      margin-right: 4px;
+      margin-top: -1px;
+    }
+    &:hover {
+      background-color: darken($mint, 5%);
+      border-color: darken($mint, 10%);
+    }
+  }
+  .atcb-link:active~ul,
+  .atcb-link:focus~ul,
+  .atcb-list:hover {
+    visibility: visible;
+  }
+  .atcb-item,
+  .atcb-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .atcb-list {
+    visibility: hidden;
+    width: 170px;
+    border-bottom-right-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    z-index: 900;
+    padding: 0.5em 1em;
+    background: rgba($mint, 0.8);
+    margin-top: -5px;
+  }
+  .atcb-item {
+    float: none;
+    font-size: 0.9em;
+  }
+  .atcb-item-link {
+    text-decoration: none;
+    outline: none;
+    display: block;
+    &:hover {
+      position: relative;
+      z-index: 900;
+      cursor: pointer;
+      text-decoration: none;
+      outline: none;
+      font-weight: 600;
+    }
+  }
