@@ -1,8 +1,8 @@
 ---
-title: Save the Date
+title: Shara Liou + Joseph Lee
 date: 2016-06-05 01:02:00 -07:00
 event_date: 2016-10-22 17:00:00 -07:00
-event_info: Ceremony Starts At 5 pm Dress To Impress
+event_info: 'Ceremony and Reception are at:'
 location_text: |-
   ### Great Hall at Green Lake
 
