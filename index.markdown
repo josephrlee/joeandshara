@@ -10,4 +10,4 @@ location_text: |-
 layout: invitaion
 ---
 
-*Invite you to celebrate their wedding.*
+*Invite you to share in their joy as they unite their hearts in marriage.*
