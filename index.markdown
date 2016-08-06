@@ -6,7 +6,7 @@ event_info: 'Ceremony and Reception are at:'
 location_text: |-
   ### Great Hall <br/>at Green Lake
 
-  [7220 Woodlawn Ave NE, Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")
+  [7220 Woodlawn Ave NE<br/> Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")
 
   Our ceremony will begin at 5pm. Tasty dinner and enthusiastic dancing to follow. The dress code is semi-formal, but have fun with it!
 layout: invitaion
