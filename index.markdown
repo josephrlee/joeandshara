@@ -8,7 +8,7 @@ location_text: |-
   [7220 Woodlawn Ave NE<br/> Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")
 
   Our ceremony will begin at 5pm. Tasty dinner and enthusiastic dancing to follow. <br/> The dress code is semi-formal, but have fun with it!
-  <span class="big-period"><span/>
+  <span class="big-period">.<span/>
 layout: invitaion
 ---
 
