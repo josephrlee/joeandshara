@@ -7,7 +7,7 @@ location_text: |-
   ### Great Hall <br/>at Green Lake
 
   [7220 Woodlawn Ave NE<br/> Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")
-accomidations_text: |-
+accommodations_text: |-
   ### Accommodations
 
   If you're traveling from out of town and would like to stay at a hotel, we recommend staying at [University Inn](http://www.universityinnseattle.com/)or [Watertown Hotel](http://www.watertownseattle.com/) . Both are a short 10 minute drive away from our wedding venue, Great Hall at Green Lake. Use the code_WED_to get a discounted rate on your room.
