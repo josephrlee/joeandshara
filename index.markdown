@@ -11,6 +11,10 @@ rsvp_text: |-
   ### RSVP
 
   Kindly RSVP by September 15, 2016
+kids_text: |-
+  ##### A note to our friends with kids:
+
+  Due to limited seating at the venue, we've decided to make our wedding an adult-only event. We hope this advance notice means you're still able to celebrate our big day and you'll enjoy having the evening off! (Our exceptions: Guests traveling from out of town are welcome to bring their kids, and guests with very young infants are also welcome.)
 accommodations_text: |-
   ### Accommodations
 
@@ -21,10 +25,6 @@ registries_text: |-
   ### Registries
 
   If you'd like to contribute to this new and exciting chapter in our lives, please visit our registries at [Amazon](https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML "View our Amazon Registry") and [Macy's](http://www1.macys.com/registry/wedding/guest/?registryId=6623546 "View Our Registry on Macy's").
-kids_text: |-
-  ##### A note to our friends with kids:
-
-  Due to limited seating at the venue, we've decided to make our wedding an adult-only event. We hope this advance notice means you're still able to celebrate our big day and you'll enjoy having the evening off! (Our exceptions: Guests traveling from out of town are welcome to bring their kids, and guests with very young infants are also welcome.)
 layout: invitaion
 ---
 
