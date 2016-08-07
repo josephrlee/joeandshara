@@ -6,7 +6,7 @@ event_date: 2016-10-22 17:00:00 -07:00
 location_text: |-
   ### Great Hall <br/>at Green Lake
 
-  [7220 Woodlawn Ave NE<br/> Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")
+  [7220 Woodlawn Ave NE<br/> Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12" View on Google Maps")
 accommodations_text: |-
   ### Accommodations
 
