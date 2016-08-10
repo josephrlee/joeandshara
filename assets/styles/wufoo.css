@@ -15,14 +15,14 @@ Last Updated : June 5, 2016
 
 /* Layout */
 
-form li#fo2li10 span input.fn {
+form li#fo2li10 span input.fn, form li#fo3li10 span input.fn  {
     margin-right: 10px;
 }
 form li.complex div span.left, form li.complex div span.right {
     width: 47% !important;
 }
 @media only screen and (max-width: 580px) {
-    form li.complex div span.left, form li.complex div span.right, form li#fo2li10 span {
+    form li.complex div span.left, form li.complex div span.right, form li#fo2li10 span, form li#fo3li10 span {
         width: 100% !important;
     }
     input.text, input.search, textarea.textarea {

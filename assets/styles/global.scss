@@ -1,86 +1,198 @@
 ---
+
 ---
-
 /*--- Stylesheet Joe & Shara's Wedding website  --- */
-
 @import "normalize";
 @import "bourbon/bourbon";
 @import "neat/neat";
 @import "base/base";
-
 * {
   box-sizing: border-box;
 }
-
 // LAYOUT
 // ========================================================
 body {
-  background: $gradient, url("#{$img-path}/hero-banner.jpg");
-  @include image-2x("#{$img-path}/hero-banner_2x.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  @include media($large-screen) {
+    background: $gradient, url("#{$img-path}/invite-image.jpg");
+    @include image-2x("#{$img-path}/invite-image_2x.jpg");
+    background-position: bottom right;
+    background-size: 45%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
 }
-
-section {
+header {
+  min-height: 90vh;
+}
+footer,
+header,
+main {
   @include outer-container;
+
   padding: $gutter;
   @include media($small-screen) {
-     padding: $gutter/1.5;
+    padding: $gutter/1.5;
   }
   @include media($medium-screen) {
-     @include span-columns(8);
-     padding: $gutter $gutter*2;
+     @include span-columns(12);
+    padding: $gutter $gutter*2;
   }
   @include media($large-screen) {
      @include span-columns(7);
   }
 }
-.featureWrap {
-  min-height: 100vh;
-  padding: $gutter*2 0;
+main {
+  background: white;
+  section {
+    padding: $gutter*2 0 $gutter;
+    min-height: 100vh;
+  }
+}
+footer {
+  background: white;
+}
+nav {
+  float: none;
+  @include media ($medium-screen) {
+
+    position: fixed;
+    top: $gutter;
+    right: $gutter;
+  }
+}
+ul.navigation-menu {
+  clear: both;
+  display: none;
+  margin: 0 auto;
+  overflow: visible;
+  padding: 0;
+  width: 100%;
+  @include media ($medium-screen) {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  &.show {
+    display: block;
+  }
+}
+// Nav items
+.nav-link {
+  display: block;
+  text-align: right;
+  width: 100%;
+  @include media ($medium-screen) {
+    background: transparent;
+    display: inline;
+    text-decoration: none;
+    width: auto;
+  }
+  a {
+    display: inline-block;
+    @include media ($large-screen) {
+      padding-right: 1em;
+    }
+  }
 }
 // INTRO
 // ========================================================
 .intro {
-  padding: $gutter*3 0 $gutter;
+  background: lighten($tangerine, 10%);
+  padding-top: $gutter*2;
   h1 {
-    margin-bottom: 0;
-    font-size: 14vw;
-    line-height: .85;
+    margin-bottom: 4vw;
+    font-size: 16vmin;
+    line-height: 0.85;
     font-weight: 400;
+    color: white;
     @include media($medium-screen) {
-      text-indent: 10px;
+      font-size: 14vw;
+      margin-bottom: 4vw;
     }
     @include media($large-screen) {
-      text-indent: 15px;
+      font-size: 8vw;
+      margin-bottom: 2.5vw;
+
+    }
+    @include media($xlarge-screen) {
+      font-size: 9vw;
     }
   }
-}
-.date,
-.title {
-  text-transform: uppercase;
-  font-size: 4vmin;
-  text-indent: 3.25vw;
-  @include media($medium-screen) {
-    font-size: 3vw;
-    text-indent: 4.5vw;
+  p {
+    font-size: 5.75vw;
+    @include media($medium-screen) {
+      font-size: 5vw;
+    }
+    @include media($large-screen) {
+      font-size: 2.75vw;
+    }
+    @include media($xlarge-screen) {
+      font-size: 3vw;
+    }
+    margin-bottom: $gutter*.25;
+    color: white;
   }
-  @include media($large-screen) {
-    font-size: 2vw;
+  p+p {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 3vmin;
+    margin-bottom: $gutter*3;
+    @include media($medium-screen) {
+      font-size: 2.25vw;
+    }
+    @include media($large-screen) {
+      font-size: 1.5vw;
+    }
+  }
+  .genericon-expand {
+    color: white;
   }
 }
-.title {
-  margin: 0;
-}
-.date {
-  color: $action-color;
-}
-// Form
+// LOCATION
 // ========================================================
-.form p {
-  font-size: modular-scale(1);
+.location {
+  .date {
+    margin-top: 5vh;
+  }
+  .details {
+    position: relative;
+    z-index: 1;
+    @include media($medium-screen) {
+      font-size: 1.75vw;
+    }
+    margin-top: $gutter*2;
+    margin-bottom: $gutter*3;
+    &:after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      float: right;
+      width: 15vmin;
+      height: 15vmin;
+      border-radius: 50%;
+      background-color: rgba($tangerine, 0.2);
+      vertical-align: middle;
+      z-index: -1;
+    }
+  }
+  p {
+    font-style: italic;
+    font-weight: 500;
+  }
+  .map {
+    margin-bottom: $gutter;
+    margin-top: $gutter/2;
+  }
+  figcaption {
+    background: lighten($tangerine, 30%);
+    position: relative;
+    padding: $gutter;
+    font-size: smaller;
+  }
 }
 // MAP
 // ========================================================
@@ -100,36 +212,50 @@ section {
 .scrolloff {
   pointer-events: none;
 }
+// RSVP
+// ========================================================
+.form {
+  aside {
+    background: lighten($mint, 5%);
+    padding: $gutter;
+    border-radius: $base-border-radius;
+    margin-bottom: $gutter;
+  }
+}
 // COUNTDOWN
 // ========================================================
 .countdown {
-  margin: $gutter 0;
-  float: left;
-  width: 100%;
+  @include media($medium-screen) {
+    position: fixed;
+    right: $gutter;
+    bottom: $gutter;
+  }
   div {
     display: block;
     float: left;
-    margin-left: 3vw;
-    font-size: 13vw;
-    @include media($medium-screen) {
-      font-size: 6.8vw;
-    }
-    font-weight: bold;
+    margin-left: 1vw;
+    font-size: 8vmin;
+    font-weight: 400;
     line-height: 1;
     text-align: center;
     font-style: normal;
-    color: $action-color;
+    color: lighten($tangerine, 20%);
+    @include media($medium-screen) {
+      font-weight: 600;
+      font-size: 1.5vw;
+      text-shadow: 0 0 $gutter $base-font-color;
+    }
     span {
       display: block;
-      border-top: 2px solid $base-border-color;
-      padding-top: $gutter/2;
-      margin-top: $gutter/2;
-      font-size: 3.2vw;
-      @include media($medium-screen) {
-        font-size: 2vw;
-      }
-      font-weight: light;
+      border-top: 0.25vh solid lighten($tangerine, 20%);
+      padding-top: $gutter/3;
+      margin-top: $gutter/3;
+      font-size: 4vmin;
       text-transform: uppercase;
+      @include media($medium-screen) {
+        font-size: 1vw;
+        text-shadow: 0 0 $gutter $base-font-color;
+      }
     }
   }
   div:first-child {
@@ -138,67 +264,86 @@ section {
 }
 // ADD TO CALENDAR
 // ========================================================
-  .addtocalendar var {
-    display: none;
+.addtocalendar var {
+  display: none;
+}
+.addtocalendar {
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.atcb-link {
+  &:before {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font: normal 18px / 1 'Genericons';
+    vertical-align: top;
+    content: '\f305';
+    margin-right: 4px;
+    margin-top: -1px;
   }
-  .addtocalendar {
-    position: absolute;
-    z-index: 1000;
-    left: 0;
-    right: 0;
-    margin: auto;
+  &:hover {
+    background-color: darken($mint, 5%);
+    border-color: darken($mint, 10%);
   }
-  .atcb-link {
-
-    &:before {
-      -webkit-font-smoothing: antialiased;
-      display: inline-block;
-      font: normal 18px / 1 'Genericons';
-      vertical-align: top;
-      content: '\f305';
-      margin-right: 4px;
-      margin-top: -1px;
-    }
-    &:hover {
-      background-color: darken($mint, 5%);
-      border-color: darken($mint, 10%);
-    }
-  }
-  .atcb-link:active~ul,
-  .atcb-link:focus~ul,
-  .atcb-list:hover {
-    visibility: visible;
-  }
-  .atcb-item,
-  .atcb-list {
-    list-style: none;
-    margin: 0 auto;
-    padding: 0;
-  }
-  .atcb-list {
-    visibility: hidden;
-    width: 170px;
-    border-bottom-right-radius: 0.25em;
-    border-bottom-left-radius: 0.25em;
+}
+.atcb-link:active~ul,
+.atcb-link:focus~ul,
+.atcb-list:hover {
+  visibility: visible;
+}
+.atcb-item,
+.atcb-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.atcb-list {
+  visibility: hidden;
+  width: 170px;
+  border-bottom-right-radius: 0.25em;
+  border-bottom-left-radius: 0.25em;
+  z-index: 900;
+  padding: 0.5em 1em;
+  background: rgba($mint, 0.8);
+  margin-top: -5px;
+}
+.atcb-item {
+  float: none;
+  font-size: 0.9em;
+}
+.atcb-item-link {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  &:hover {
+    position: relative;
     z-index: 900;
-    padding: 0.5em 1em;
-    background: rgba($mint, 0.8);
-    margin-top: -5px;
-  }
-  .atcb-item {
-    float: none;
-    font-size: 0.9em;
-  }
-  .atcb-item-link {
+    cursor: pointer;
     text-decoration: none;
     outline: none;
-    display: block;
-    &:hover {
-      position: relative;
-      z-index: 900;
-      cursor: pointer;
-      text-decoration: none;
-      outline: none;
-      font-weight: 600;
-    }
+    font-weight: 600;
   }
+}
+// FOOTER
+// ========================================================
+footer {
+  p {
+    // @include media($medium-screen) {
+    //   position: fixed;
+    //   bottom: $gutter;
+    //   right: $gutter;
+    //   font-style: normal;
+    //   text-shadow: 0 0 $gutter $base-font-color;
+    //   margin-bottom: 0;
+    //   a {
+    //     color: white;
+    //     &:hover {
+    //       color: $mint;
+    //     }
+    //   }
+    // }
+  }
+}

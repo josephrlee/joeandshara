@@ -5,36 +5,39 @@
   font-weight: normal;
   src: url("/assets/fonts/genericons/Genericons.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/genericons/Genericons.woff") format("woff"), url("/assets/fonts/genericons/Genericons.ttf") format("truetype"), url("/assets/fonts/genericons/Genericons.svg#genericonsregular") format("svg");
 }
-
 /** ARROWS **/
-.genericon-expand:before {
-  -webkit-font-smoothing: antialiased;
-  content: '\f431';
-  display: block;
-  font: normal 48px / 1 'Genericons';
-  vertical-align: middle;
-  padding-top: $gutter/2;
-  text-indent: $gutter;
-  text-shadow: rgba(0,0,0,.3) 0 0 30px;
-}
 .genericon-expand {
   cursor: pointer;
-  animation: fade 1s infinite;
-  -webkit-animation: fade 1s infinite;
   text-decoration: none;
   display: block;
   color: $action-color;
+  &:hover {
+    color: $action-color;
+    text-decoration: none;
+  }
+  &:before {
+    -webkit-font-smoothing: antialiased;
+    content: '\f431';
+    display: block;
+    font: normal 36px / 1 'Genericons';
+    vertical-align: middle;
+    animation: fade 1s infinite;
+    -webkit-animation: fade 1s infinite;
+  }
 }
-.genericon-expand:hover {
-  color: $action-color;
+.wf-loading {
+font-family: "brandon-grotesque";
+visibility: hidden;
+}
+.wf-active {
+visibility: visible;
 }
 body {
-  color: $base-font-color;
+  color: lighten($base-font-color, 15%);
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
 }
-
 h1,
 h2,
 h3,
@@ -46,21 +49,36 @@ h6 {
   font-size: modular-scale(1);
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing/3;
+  font-weight: 400;
 }
 h1 {
   font-size: 6vw;
 }
 h2 {
-  font-size: 5vw;
+  text-transform: uppercase;
+  color: lighten($tangerine, 5%);
+  font-size: 4vmin;
+  @include media($medium-screen) {
+    font-size: 3.5vw;
+  }
 }
 h3 {
   font-size: 3vw;
   @include media($small-screen) {
     font-size: modular-scale(2);
   }
+  font-size: 4vmin;
+  font-weight: 400;
 }
 h4 {
-  font-size: 3vw;
+  font-size: 2.5vw;
+  @include media($small-screen) {
+    font-size: modular-scale(1);
+  }
+  text-transform: uppercase;
+  font-size: 4vmin;
+  color: lighten($tangerine, 10%);
+  font-weight: 400;
 }
 h5 {
   font-size: modular-scale(2);
@@ -68,27 +86,35 @@ h5 {
 h6 {
   font-size: modular-scale(1);
 }
-
 p {
   margin: 0 0 $small-spacing;
 }
-
 a {
   color: $action-color;
   text-decoration: none;
-  transition: color $base-duration $base-timing;
-
+  transition: all $base-duration $base-timing;
   &:active,
   &:focus,
   &:hover {
-    color: shade($action-color, 25%);
+    color: darken($action-color, 10%);
+    text-decoration: underline;
   }
 }
-
 hr {
   border-bottom: $base-border;
   border-left: 0;
   border-right: 0;
   border-top: 0;
   margin: $base-spacing 0;
+}
+.button {
+  border: $base-border;
+  border-radius: $base-border-radius*1.5;
+  padding: $small-spacing/3 $small-spacing*3;
+  &:hover {
+    text-decoration: none;
+  }
+  margin-right: $gutter;
+  margin-top: $gutter/2;
+  display: inline-block;
 }

@@ -14,13 +14,22 @@
   <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
   <script src="https://use.typekit.net/pjr4ktj.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="https://use.fontawesome.com/38c6d2bf2c.js"></script>
   <link rel="stylesheet" type="text/css" href="/assets/styles/global.css" />
-  <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="  crossorigin="anonymous"></script>
   {% seo %}
 </head>
 <body>
+  <nav class="navigation">
+    <ul id="js-navigation-menu" class="navigation-menu show">
+      <li class="nav-link"><a href="#intro">Info</a></li>
+      <li class="nav-link"><a href="#accomodations">Travel</a></li>
+      <li class="nav-link"><a href="#registry">Registry</a></li>
+      <li class="nav-link"><a href="#rsvp">RSVP</a></li>
+    </ul>
+  </nav>
   <section>
-  {{ content }}
+    {{ content }}
   </section>
   <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -32,6 +41,5 @@
   </script>
   <script type='text/javascript' src='/assets/scripts/countdown.js'></script>
   <script type='text/javascript' src='/assets/scripts/all.js'></script>
-
 </body>
 </html>
