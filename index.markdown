@@ -16,9 +16,13 @@ kids_text: |-
 
   Due to limited seating at the venue, we've decided to make our wedding an adult-only event. We hope this advance notice means you're still able to celebrate our big day and you'll enjoy having the evening off! (Our exceptions: Guests traveling from out of town are welcome to bring their kids, and guests with very young infants are also welcome.)
 accommodations_text: |-
-  ### Accommodations
+  ### Where to Stay
+
+  #### Hotels
 
   If you're traveling from out of town and would like to stay at a hotel, we recommend staying at [University Inn](http://www.universityinnseattle.com/) or [Watertown Hotel](http://www.watertownseattle.com/). Both are a short 10 minute drive away from our wedding venue, [Great Hall at Green Lake](https://goo.gl/maps/4BZfy8oDGy12). Use the code **WED** to get a discounted rate on your room.
+
+  #### Airbnb
 
   We also highly recommend using [Airbnb](https://www.airbnb.com/) , to find a unique place that suits your needs. If it's your first time using Airbnb, [sign up here](https://www.airbnb.com/c/sliou11) for $30 off.
 registries_text: |-
