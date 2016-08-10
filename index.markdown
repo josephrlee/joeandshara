@@ -24,7 +24,7 @@ accommodations_text: |-
 
   #### Airbnb
 
-  We also highly recommend using [Airbnb](https://www.airbnb.com/) , to find a unique place that suits your needs. If it's your first time using Airbnb, [sign up here](https://www.airbnb.com/c/sliou11) for $30 off.
+  We also highly recommend using [Airbnb](https://www.airbnb.com/) , to find a unique place that suits your needs. If it's your first time using Airbnb, [sign up here for $30 off](https://www.airbnb.com/c/sliou11).
 registries_text: |-
   ### Registries
 
