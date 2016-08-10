@@ -11,3 +11,4 @@ collections:
 Site Colors: 
 gems:
 - jekyll-seo-tag
+- kramdown

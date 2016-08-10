@@ -1,2 +1,2 @@
-# joeandshara
-Wedding website for my wedding! Whoppie!
+# [joeandshara.com](http://joeandshara.com)
+Welcome to my wedding website! Whoppie!

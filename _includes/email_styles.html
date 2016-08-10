@@ -22,11 +22,53 @@
   #templatePreheader .mcnTextContent p {
     font-family: 'Brandon Grotesque', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   }
+  @media only screen and (max-width: 480px) {
+    .mcnButton {
+      font-size: 17px !important;
+      line-height: 26px !important;
+    }
+    .mcnButtonContent {
+      padding: 12px !important;
+    }
+    .mcnButtonContentContainer {
+      padding: 0 6px !important;
+    }
+    .mcnTextContent em.small {
+      font-size: 16px;
+    }
+  }
+  .mcnTextContent p.address {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  @media screen and (min-width: 480px) {
+    .mcnTextContent em.small {
+      font-size: 20px !important;
+    }
+  }
+  .mcnButton {
+    font-size: 22px;
+  }
+  .mcnButtonContentContainer {
+    border-bottom: solid 2px #cadcc8;
+    padding: 0 10px;
+    transition: all 0.3s ease !important;
+  }
+  .mcnButtonContentContainer:hover {
+    background-color: #cadcc8 !important;
+  }
+  .mcnButtonBlockInner {
+    padding-bottom: 0 !important;
+  }
   .mcnCaptionBlockInner {
     padding-top: 20px !important;
   }
   #templateBody {
-    padding-bottom: 20px !important;
+    padding-bottom: 0 !important;
+  }
+  #awesomewrap,
+  #templateFooter .mcnTextContent img {
+    display: none !important;
   }
 
 </style>
