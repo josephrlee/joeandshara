@@ -7,6 +7,7 @@ location_text: |-
   ### Great Hall <br/>at Green Lake
 
   [7220 Woodlawn Ave NE<br/> Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12" View on Google Maps")
+
   5pm-10pm
 rsvp_text: |-
   ### RSVP
