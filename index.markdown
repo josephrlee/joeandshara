@@ -7,10 +7,7 @@ location_text: |-
   ## Great Hall at Green Lake
 
   [7220 Woodlawn Ave NE Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12" View on Google Maps") • 5pm-10pm
-rsvp_text: |-
-  ### RSVP
-
-  Kindly RSVP by September 15, 2016
+rsvp_text: "### Kindly RSVP by September 15, 2016"
 kids_text: |-
   ##### A note to our friends with kids:
 
