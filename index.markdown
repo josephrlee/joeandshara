@@ -28,7 +28,7 @@ accommodations_text: |-
 registries_text: |-
   ### Registries
 
-  If you'd like to contribute to this new and exciting chapter in our lives, please visit our registries at <i class="fa fa-amazon" aria-hidden="true"></i> [Amazon](https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML "View our Amazon Registry") and [Macy's](http://www1.macys.com/registry/wedding/guest/?registryId=6623546 "View Our Registry on Macy's").
+  If you'd like to contribute to this new and exciting chapter in our lives, please visit our registries at [Amazon](https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML "View our Amazon Registry") and [Macy's](http://www1.macys.com/registry/wedding/guest/?registryId=6623546 "View Our Registry on Macy's").
 footer_text: '[#JoeShara2016](https://www.instagram.com/explore/tags/joeshara2016/
   "View on Instagram")'
 layout: invitaion
