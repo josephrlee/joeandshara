@@ -46,19 +46,7 @@ registries_text: |-
 
   We're incredibly grateful for your friendship. Your presence at our wedding is enough of a gift to us! That said, if you'd like to contribute to this new and exciting chapter in our lives, please visit our registries at [Amazon](https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML "View our Amazon Registry") and [Macy's](http://www1.macys.com/registry/wedding/guest/?registryId=6623546 "View Our Registry on Macy's").
 
-  <a href="https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML" title="View our Amazon Registry" class="button"><i class="fa fa-amazon" aria-hidden="true"></i>Amazon</a> <a href="http://www1.macys.com/registry/wedding/guest/?registryId=6623546" title="View Our Registry on Macy's" class="button"><svg><path  d="
-  M 180.000 195.000
-  L 203.511 212.361
-  L 194.266 184.635
-  L 218.042 167.639
-  L 188.817 167.865
-  L 180.000 140.000
-  L 171.183 167.865
-  L 141.958 167.639
-  L 165.734 184.635
-  L 156.489 212.361
-  L 180.000 195.000
-  "/></svg>Macy’s</a>
+  <a href="https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML" title="View our Amazon Registry" class="button"><i class="fa fa-amazon" aria-hidden="true"></i>Amazon</a> <a href="http://www1.macys.com/registry/wedding/guest/?registryId=6623546" title="View Our Registry on Macy's" class="button">Macy’s</a>
 footer_text: '[#JoeShara2016](https://www.instagram.com/explore/tags/joeshara2016/
   "View on Instagram")'
 layout: invitaion
