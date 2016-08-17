@@ -9,15 +9,13 @@ location_text: |-
   Our wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff!
 
 
-  ### Location
+  ### Location + Parking
 
   #### Great Hall at Green Lake
 
   [7220 Woodlawn Ave NE Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")<br/>
   5pm-10pm
 
-
-  ### Parking Details
 
   It can be tough to find parking. To make things a bit easier, we’ve reserved a limited amount of parking spots at [Seattle Formosan Christian Church: 333 NE 76th St](https://goo.gl/maps/Mvczd37yaHC2). If all else fails, you can also pay $8 for parking under PCC grocery.
 map:
