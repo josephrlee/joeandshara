@@ -4,18 +4,20 @@ date: 2016-06-05 01:02:00 -07:00
 position: 0
 event_date: 2016-10-22 17:00:00 -07:00
 location_text: |-
-  ### Location
+  ## Love Grows!
 
-  ## Great Hall at Green Lake
+  Our wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff!
+
+
+  ### Location
 
   [7220 Woodlawn Ave NE Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")<br/>
   5pm-10pm
 
-  Our wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff!
 
   ### Parking Details
 
-  It can be tough to find street parking. To make things a bit easier, we’ve reserved a limited amount of parking spots at [Seattle Formosan Christian Church: 333 NE 76th St](https://goo.gl/maps/Mvczd37yaHC2). If all else fails, you can also pay $8 for parking under PCC grocery.
+  There is some street parking, but it can be tough to find. To make things a bit easier, we’ve reserved a limited amount of parking spots at [Seattle Formosan Christian Church: 333 NE 76th St](https://goo.gl/maps/Mvczd37yaHC2). If all else fails, you can also pay $8 for parking under PCC grocery.
 map:
   caption: Parking can be difficult around Green Lake, so it’s a good idea to come
     early!
