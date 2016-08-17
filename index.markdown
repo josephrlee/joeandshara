@@ -10,7 +10,7 @@ location_text: |-
 
   [7220 Woodlawn Ave NE Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps") • 5pm-10pm
 
-  Our ceremony will begin at 5pm. Tasty dinner and enthusiastic dancing to follow. The dress code is semi-formal, but have fun with it!
+  Our ceremony will begin at 5pm. Tasty dinner and enthusiastic dancing to follow. The dress code is semi-formal.
 
   ### Location and Parking Details
 map:
@@ -28,7 +28,7 @@ accommodations_text: |-
 
   #### Hotels
 
-  If you're traveling from out of town and would like to stay at a hotel, we recommend staying at [University Inn](http://www.universityinnseattle.com/) or [Watertown Hotel](http://www.watertownseattle.com/). Both are a short 10 minute drive away from our wedding venue, [Great Hall at Green Lake](https://goo.gl/maps/4BZfy8oDGy12). Use the code **WED** to get a discounted rate on your room.
+  If you're traveling from out of town and would like to stay at a hotel, we recommend staying at [Watertown Hotel](http://www.watertownseattle.com/)or [Hotel Deca](http://www.hoteldeca.com/). Both are a short drive away from our wedding venue, [Great Hall at Green Lake](https://goo.gl/maps/4BZfy8oDGy12). Use the code **WED** to get a discounted rate on your room.
 
   #### Airbnb
 
