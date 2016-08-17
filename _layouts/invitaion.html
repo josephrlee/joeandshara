@@ -9,14 +9,12 @@ layout: default
 <main>
   <section class="location" id="intro">
     {{ page.location_text | markdownify }}
-    {% for map %}
       <figure class="map">
         <figcaption>
-          {{ map.caption }}
+          {{ page.map.caption }}
         </figcaption>
-        <a href="{{ map.url }}" title="Click her for directions"><img src="{{ map.image }}" alt="Map of Great Hall"/></a>
+        <a href="{{ page.map.url }}" title="Click her for directions"><img src="{{ page.map.image }}" alt="Map of Great Hall"/></a>
       </figure>
-    {% endfor %}
     <a class="genericon genericon-expand" href="#accomodations"></a>
   </section>
   <section id="accomodations">
