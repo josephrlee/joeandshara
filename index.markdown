@@ -9,7 +9,7 @@ location_text: |-
   Our wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff!
 
 
-  ### The Details
+  ### Location
 
   #### Ceremony & Reception
 
