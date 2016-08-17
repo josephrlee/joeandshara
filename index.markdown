@@ -17,7 +17,7 @@ location_text: |-
 
   ### Parking Details
 
-  There is some street parking, but it can be tough to find. To make things a bit easier, we’ve reserved a limited amount of parking spots at [Seattle Formosan Christian Church: 333 NE 76th St](https://goo.gl/maps/Mvczd37yaHC2). If all else fails, you can also pay $8 for parking under PCC grocery.
+  It can be tough to find parking. To make things a bit easier, we’ve reserved a limited amount of parking spots at [Seattle Formosan Christian Church: 333 NE 76th St](https://goo.gl/maps/Mvczd37yaHC2). If all else fails, you can also pay $8 for parking under PCC grocery.
 map:
   caption: Parking can be difficult around Green Lake, so it’s a good idea to come
     early!
