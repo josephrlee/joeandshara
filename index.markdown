@@ -28,7 +28,7 @@ accommodations_text: |-
 
   #### Hotels
 
-  If you're traveling from out of town and would like to stay at a hotel, we recommend staying at [Watertown Hotel](http://www.watertownseattle.com/)or [Hotel Deca](http://www.hoteldeca.com/). Both are a short drive away from our wedding venue, [Great Hall at Green Lake](https://goo.gl/maps/4BZfy8oDGy12). Use the code **WED** to get a discounted rate on your room.
+  If you're traveling from out of town and would like to stay at a hotel, we recommend staying at [Watertown Hotel](http://www.watertownseattle.com/) or [Hotel Deca](http://www.hoteldeca.com/). Both are a short drive away from our wedding venue, [Great Hall at Green Lake](https://goo.gl/maps/4BZfy8oDGy12). Use the code **WED** to get a discounted rate on your room.
 
   #### Airbnb
 
