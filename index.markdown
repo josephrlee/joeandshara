@@ -8,7 +8,7 @@ location_text: |-
 
   ## Great Hall at Green Lake
 
-  [7220 Woodlawn Ave NE Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12" View on Google Maps") • 5pm-10pm
+  \[7220 Woodlawn Ave NE Seattle, WA 98115\](https://goo.gl/maps/4BZfy8oDGy12" View on Google Maps") • 5pm-10pm
 
   Our ceremony will begin at 5pm. Tasty dinner and enthusiastic dancing to follow. The dress code is semi-formal, but have fun with it!
 
@@ -37,6 +37,8 @@ registries_text: |-
   ### Registries
 
   If you'd like to contribute to this new and exciting chapter in our lives, please visit our registries at [Amazon](https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML "View our Amazon Registry") and [Macy's](http://www1.macys.com/registry/wedding/guest/?registryId=6623546 "View Our Registry on Macy's").
+
+  <a href="https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML" title="View our Amazon Registry" class="button"><i class="fa fa-amazon" aria-hidden="true"></i>Amazon</a> <a href="http://www1.macys.com/registry/wedding/guest/?registryId=6623546" title="View Our Registry on Macy's" class="button">Macy’s</a>
 footer_text: '[#JoeShara2016](https://www.instagram.com/explore/tags/joeshara2016/
   "View on Instagram")'
 layout: invitaion
