@@ -29,7 +29,7 @@ accommodations_text: |-
 
   #### Hotels
 
-  If you're traveling from out of town and would like to stay at a hotel, we recommend staying at [Watertown Hotel](http://www.watertownseattle.com/) or [Hotel Deca](http://www.hoteldeca.com/). Both are a short drive away from our wedding venue, [Great Hall at Green Lake](https://goo.gl/maps/4BZfy8oDGy12). Use the code **WED** to get a discounted rate on your room.
+  If you're traveling from out of town and would like to stay at a hotel, we recommend staying at [Watertown Hotel](http://www.watertownseattle.com/) or [Hotel Deca](http://www.hoteldeca.com/). Both are a short drive away from our wedding venue, [Great Hall at Green Lake](https://goo.gl/maps/4BZfy8oDGy12). (Insider tip: Use the code **WED** to get a discounted rate on your room at Watertown Hotel.)
 
   #### Airbnb
 
@@ -37,7 +37,7 @@ accommodations_text: |-
 registries_text: |-
   ### Registries
 
-  If you'd like to contribute to this new and exciting chapter in our lives, please visit our registries at [Amazon](https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML "View our Amazon Registry") and [Macy's](http://www1.macys.com/registry/wedding/guest/?registryId=6623546 "View Our Registry on Macy's").
+  We're incredibly grateful for your friendship. Your presence at our wedding is enough of a gift to us! That said, if you'd like to contribute to this new and exciting chapter in our lives, please visit our registries at [Amazon](https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML "View our Amazon Registry") and [Macy's](http://www1.macys.com/registry/wedding/guest/?registryId=6623546 "View Our Registry on Macy's").
 
   <a href="https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML" title="View our Amazon Registry" class="button"><i class="fa fa-amazon" aria-hidden="true"></i>Amazon</a> <a href="http://www1.macys.com/registry/wedding/guest/?registryId=6623546" title="View Our Registry on Macy's" class="button">Macy’s</a>
 footer_text: '[#JoeShara2016](https://www.instagram.com/explore/tags/joeshara2016/
