@@ -28,7 +28,7 @@ kids_text: |-
 
   Due to limited seating at the venue, we've decided to make our wedding an adult-only event. We hope this advance notice means you're still able to celebrate our big day and you'll enjoy having the evening off!
 
-  Some exceptions: Families traveling from out of town are welcome to bring their children. If you have a newborn, we're eager to meet them at the wedding!
+  <i>Some exceptions to the rule: Families traveling from out of town are welcome to bring their children. If you have a newborn, we're eager to meet them at the wedding!</i>
 
   Please don't hesitate to contact us if you have questions.
 accommodations_text: |-
