@@ -6,7 +6,7 @@ event_date: 2016-10-22 17:00:00 -07:00
 location_text: |-
   ## It's Party Time!
 
-  Our wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff for us!
+  Come and witness as we vow to love one another forever. Our wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff for us!
 
 
   ### Location
