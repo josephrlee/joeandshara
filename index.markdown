@@ -43,4 +43,7 @@ layout: invitaion
 ---
 
 # Shara Liou <br/>+ Joseph Lee
+
 Invite you to celebrate their marriage.
+
+Saturday, October 22 2016 • Seattle, WA
