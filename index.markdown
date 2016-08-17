@@ -8,7 +8,8 @@ location_text: |-
 
   ## Great Hall at Green Lake
 
-  [7220 Woodlawn Ave NE Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps") • 5pm-10pm
+  [7220 Woodlawn Ave NE Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")
+  5pm-10pm
 
   Our wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff!
 
