@@ -3,46 +3,39 @@ layout: default
 ---
 
 <header class="intro" id="welcome">
-  <h1>Shara Liou <br/>+ Joseph Lee</h1>
   {{ content }}
-  <p>{{ page.event_date | date: "%A, %B %-d %Y" }} • Seattle, WA</p>
   <a class="genericon genericon-expand" href="#intro"></a>
 </header>
 <main>
   <section class="location" id="intro">
-    <h3>Ceremony and Reception are at:</h3>
     {{ page.location_text | markdownify }}
-    <p class="details">Our ceremony will begin at 5pm. Tasty dinner and enthusiastic dancing to follow. The dress code is semi-formal, but have fun with it!</p>
-    <h3>Location and Parking Details</h3>
+    {% for map %}
       <figure class="map">
         <figcaption>
-          Parking can be tough around Green Lake, so it’s a good idea to come early! To make things a bit easier, we’ve reserved the parking lots at Seattle Formosan Christian Church 333 NE 76th St. You can also pay for parking under PCC grocery.
+          {{ map.caption }}
         </figcaption>
-        <a
-          href="https://maps.google.com/maps?ll=47.681098,-122.324802&z=16&t=m&hl=en-US&gl=US&mapclient=embed&daddr=Great%20Hall%20at%20Green%20Lake%207220%20Woodlawn%20Ave%20NE%20Seattle%2C%20WA%2098115@47.6810985,-122.3248016"
-          title="Click her for directions"><img src="/assets/images/map.svg" alt="Map of Great Hall"/></a>
+        <a href="{{ map.url }}" title="Click her for directions"><img src="{{ map.image }}" alt="Map of Great Hall"/></a>
       </figure>
-      <a class="genericon genericon-expand" href="#accomodations"></a>
-    </section>
-    <section id="accomodations">
-      {{ page.accommodations_text | markdownify }}
-      <a class="genericon genericon-expand" href="#registry"></a>
-    </section>
-    <section class="registry" id="registry">
-      {{ page.registries_text | markdownify }}
-      <p><a href="https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML" title="View our Amazon Registry" class="button"><i class="fa fa-amazon" aria-hidden="true"></i>
- Amazon</a> <a href="http://www1.macys.com/registry/wedding/guest/?registryId=6623546" title="View Our Registry on Macy's" class="button">Macy’s</a></p>
-      <a class="genericon genericon-expand" href="#rsvp"></a>
-    </section>
-    <section class="form" id="rsvp">
-      {{ page.rsvp_text | markdownify }}
-      {% include rsvp.html %}
-      <aside>
-        {{ page.kids_text | markdownify }}
-      </aside>
-    </section>
-    <div class="countdown"></div>
-  </main>
-  <footer>
-    {{ page.footer_text | markdownify }}
-  </footer>
+    {% endfor %}
+    <a class="genericon genericon-expand" href="#accomodations"></a>
+  </section>
+  <section id="accomodations">
+    {{ page.accommodations_text | markdownify }}
+    <a class="genericon genericon-expand" href="#registry"></a>
+  </section>
+  <section class="registry" id="registry">
+    {{ page.registries_text | markdownify }}
+    <a class="genericon genericon-expand" href="#rsvp"></a>
+  </section>
+  <section class="form" id="rsvp">
+    {{ page.rsvp_text | markdownify }}
+    {% include rsvp.html %}
+    <aside>
+      {{ page.kids_text | markdownify }}
+    </aside>
+  </section>
+  <div class="countdown"></div>
+</main>
+<footer>
+  {{ page.footer_text | markdownify }}
+</footer>
