@@ -10,10 +10,10 @@ layout: default
   <section class="location" id="intro">
     {{ page.location_text | markdownify }}
       <figure class="map">
+        <a href="{{ page.map.url }}" title="Click her for directions"><img src="{{ page.map.image }}" alt="Map of Great Hall"/></a>
         <figcaption>
           {{ page.map.caption }}
         </figcaption>
-        <a href="{{ page.map.url }}" title="Click her for directions"><img src="{{ page.map.image }}" alt="Map of Great Hall"/></a>
       </figure>
     <a class="genericon genericon-expand" href="#accomodations"></a>
   </section>
