@@ -91,7 +91,7 @@ p {
 }
 a {
   color: $action-color;
-  text-decoration: none;
+  text-decoration: underline;
   transition: all $base-duration $base-timing;
   &:active,
   &:focus,
