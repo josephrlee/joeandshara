@@ -11,6 +11,8 @@ location_text: |-
   [7220 Woodlawn Ave NE Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12" View on Google Maps") • 5pm-10pm
 
   <p class="details">Our ceremony will begin at 5pm. Tasty dinner and enthusiastic dancing to follow. The dress code is semi-formal, but have fun with it!</p>
+
+  ### Location and Parking Details
 rsvp_text: "### Kindly RSVP by September 15, 2016"
 kids_text: |-
   ##### A note to our friends with kids:
