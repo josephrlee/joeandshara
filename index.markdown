@@ -6,13 +6,13 @@ event_date: 2016-10-22 17:00:00 -07:00
 location_text: |-
   ## It's Party Time!
 
-  Our wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff!
+  Our wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff for us!
 
 
   ### Location
 
   #### Great Hall at Green Lake
-  **[7220 Woodlawn Ave NE Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")**<br/> Saturday, October 22, 2016 | 5pm-10pm
+  7220 Woodlawn Ave NE Seattle, WA 98115. [Here's a map.](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")<br/> Saturday, October 22, 2016 | 5pm-10pm
 
   ### Parking
 
@@ -28,7 +28,7 @@ kids_text: |-
 
   Due to limited seating at the venue, we've decided to make our wedding an adult-only event. We hope this advance notice means you're still able to celebrate our big day and you'll enjoy having the evening off!
 
-  Some exceptions: Families traveling from out of town are welcome to bring their children. If you have a newborn, we're eager to meet them at the wedding!
+  <i>Some exceptions to the rule: Families traveling from out of town are welcome to bring their children. If you have a newborn, we're eager to meet them at the wedding!</i>
 
   Please don't hesitate to contact us if you have questions.
 accommodations_text: |-
@@ -44,10 +44,10 @@ accommodations_text: |-
 registries_text: |-
   ### Registries
 
-  We're incredibly grateful for your friendship. Your presence at our wedding is enough of a gift to us! That said, if you'd like to contribute to this new and exciting chapter in our lives, please visit our registries at [Amazon](https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML "View our Amazon Registry") and [Macy's](http://www1.macys.com/registry/wedding/guest/?registryId=6623546 "View Our Registry on Macy's").
+  We're incredibly grateful for your friendship. Your presence at our wedding is enough of a gift! That said, if you'd like to contribute to this new and exciting chapter in our lives, please visit our registries at [Amazon](https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML "View our Amazon Registry") and [Macy's](https://www.macys.com/wgl/registry/guest/2316601 "View Our Registry on Macy's").
 
-  <a href="https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML" title="View our Amazon Registry" class="button"><i class="fa fa-amazon" aria-hidden="true"></i>Amazon</a> <a href="http://www1.macys.com/registry/wedding/guest/?registryId=6623546" title="View Our Registry on Macy's" class="button">Macy’s</a>
-footer_text: '[#JoeShara2016](https://www.instagram.com/explore/tags/joeshara2016/
+  <a href="https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML" title="View our Amazon Registry" class="button"><i class="fa fa-amazon" aria-hidden="true"></i>Amazon</a> <a href="https://www.macys.com/wgl/registry/guest/2316601" title="View Our Registry on Macy's" class="button">Macy’s</a>
+footer_text: '[#JoeAndShara2016](https://www.instagram.com/explore/tags/joeandshara2016/
   "View on Instagram")'
 layout: invitaion
 ---
