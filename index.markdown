@@ -21,12 +21,14 @@ map:
   url: https://maps.google.com/maps?ll=47.681098,-122.324802&z=16&t=m&hl=en-US&gl=US&mapclient=embed&daddr=Great%20Hall%20at%20Green%20Lake%207220%20Woodlawn%20Ave%20NE%20Seattle%2C%20WA%2098115@47.6810985,-122.3248016
   image: "/uploads/map.svg"
 rsvp_text: "### Kindly RSVP by September 15, 2016"
-kids_text: "##### A note to our friends with kids:\n\nDue to limited seating at the
-  venue, we've decided to make our wedding an adult-only event. We hope this advance
-  notice means you're still able to celebrate our big day and you'll enjoy having
-  the evening off! (Some exceptions: Families traveling from out of town are welcome
-  to bring their children. If you have a newborn, we're eager to meet them at the
-  wedding!) \n\nPlease don't hesitate to contact us if you have questions."
+kids_text: |-
+  ##### A note to our friends with kids:
+
+  Due to limited seating at the venue, we've decided to make our wedding an adult-only event. We hope this advance notice means you're still able to celebrate our big day and you'll enjoy having the evening off!
+
+  Some exceptions: Families traveling from out of town are welcome to bring their children. If you have a newborn, we're eager to meet them at the wedding!
+
+  Please don't hesitate to contact us if you have questions.
 accommodations_text: |-
   ### Where to Stay
 
