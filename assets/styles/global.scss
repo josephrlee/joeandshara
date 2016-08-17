@@ -167,7 +167,7 @@ ul.navigation-menu {
     &:first-of-type {
       position: relative;
       z-index: 1;
-      @include media($medium-screen) {
+      @include media($large-screen) {
         font-size: 1.75vw;
       }
 

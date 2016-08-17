@@ -57,7 +57,7 @@ h1 {
 h2 {
   text-transform: uppercase;
   color: lighten($tangerine, 5%);
-  font-size: 4vmin;
+  font-size: modular-scale(2);
   @include media($medium-screen) {
     font-size: 3.5vw;
   }
