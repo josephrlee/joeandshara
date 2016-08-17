@@ -13,9 +13,11 @@ location_text: |-
   Our ceremony will begin at 5pm. Tasty dinner and enthusiastic dancing to follow. The dress code is semi-formal.
 
   ### Location and Parking Details
+
+  To make things a bit easier, we’ve reserved the parking lots at [Seattle Formosan Christian Church 333 NE 76th St](https://goo.gl/maps/Mvczd37yaHC2). You can also pay for parking under PCC grocery.
 map:
   caption text: |
-    Parking can be tough around Green Lake, so it’s a good idea to come early! To make things a bit easier, we’ve reserved the parking lots at [Seattle Formosan Christian Church 333 NE 76th St](https://goo.gl/maps/Mvczd37yaHC2). You can also pay for parking under PCC grocery.
+    Parking can be tough around Green Lake, so it’s a good idea to come early!
   url: https://maps.google.com/maps?ll=47.681098,-122.324802&z=16&t=m&hl=en-US&gl=US&mapclient=embed&daddr=Great%20Hall%20at%20Green%20Lake%207220%20Woodlawn%20Ave%20NE%20Seattle%2C%20WA%2098115@47.6810985,-122.3248016
   image: "/uploads/map.svg"
 rsvp_text: "### Kindly RSVP by September 15, 2016"
