@@ -4,7 +4,7 @@ date: 2016-06-05 01:02:00 -07:00
 position: 0
 event_date: 2016-10-22 17:00:00 -07:00
 location_text: |-
-  ### Ceremony and Reception are at:
+  ### Location
 
   ## Great Hall at Green Lake
 
@@ -13,7 +13,7 @@ location_text: |-
 
   Our wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff!
 
-  ### Location and Parking Details
+  ### Parking Details
 
   There is some street parking, but it can be tough to find. To make things a bit easier, we’ve reserved a limited amount of parking spots at [Seattle Formosan Christian Church: 333 NE 76th St](https://goo.gl/maps/Mvczd37yaHC2). If all else fails, you can also pay $8 for parking under PCC grocery.
 map:
