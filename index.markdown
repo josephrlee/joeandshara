@@ -8,7 +8,7 @@ location_text: |-
 
   ## Great Hall at Green Lake
 
-  \[7220 Woodlawn Ave NE Seattle, WA 98115\](https://goo.gl/maps/4BZfy8oDGy12" View on Google Maps") • 5pm-10pm
+  [7220 Woodlawn Ave NE Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps") • 5pm-10pm
 
   Our ceremony will begin at 5pm. Tasty dinner and enthusiastic dancing to follow. The dress code is semi-formal, but have fun with it!
 
