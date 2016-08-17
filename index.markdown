@@ -14,6 +14,7 @@ location_text: |-
   #### Great Hall at Green Lake
   **[7220 Woodlawn Ave NE Seattle, WA 98115](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")**<br/> October 22, 2016 | 5pm-10pm
 
+  ### Parking
 
   It can be tough to find parking. To make things a bit easier, we’ve reserved a limited amount of parking spots at [Seattle Formosan Christian Church: 333 NE 76th St](https://goo.gl/maps/Mvczd37yaHC2). If all else fails, you can also pay $8 for parking under PCC grocery.
 map:
