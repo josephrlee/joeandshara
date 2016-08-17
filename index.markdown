@@ -6,7 +6,7 @@ event_date: 2016-10-22 17:00:00 -07:00
 location_text: |-
   ## It's Party Time!
 
-  Our wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff for us!
+  Come and witness as we vow to love one another forever. Our wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff for us!
 
 
   ### Location
@@ -26,7 +26,7 @@ rsvp_text: "### Kindly RSVP by September 15, 2016"
 kids_text: |-
   ##### A note to our friends with kids:
 
-  Due to limited seating at the venue, we've decided to make our wedding an adult-only event. We hope this advance notice means you're still able to celebrate our big day and you'll enjoy having the evening off!
+  Due to limited seating at the venue, we've decided to make our wedding an (mostly) adult-only event. We hope this advance notice means you're still able to celebrate our big day and you'll enjoy having the evening off!
 
   <i>Some exceptions to the rule: Families traveling from out of town are welcome to bring their children. If you have a newborn, we're eager to meet them at the wedding!</i>
 
