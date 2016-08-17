@@ -155,7 +155,7 @@ ul.navigation-menu {
   .date {
     margin-top: 5vh;
   }
-  .details {
+  p + p {
     position: relative;
     z-index: 1;
     @include media($medium-screen) {
