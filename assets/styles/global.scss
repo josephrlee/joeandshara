@@ -44,7 +44,7 @@ main {
 main {
   background: white;
   section {
-    padding: $gutter*2 0 $gutter;
+    padding: $gutter*3 0 $gutter;
     min-height: 100vh;
   }
 }
@@ -53,21 +53,26 @@ footer {
 }
 nav {
   float: none;
-  @include media ($medium-screen) {
-
-    position: fixed;
+  position: fixed;
+  background: lighten($light-gray, 15%);
+  width: 100%;
+  padding: $gutter/2 $gutter/1.5;
+  z-index: 100;
+  @include media ($large-screen) {
+    padding: 0;
+    background: transparent;
+    width: auto;
     top: $gutter;
     right: $gutter;
   }
 }
 ul.navigation-menu {
   clear: both;
-  display: none;
   margin: 0 auto;
   overflow: visible;
   padding: 0;
   width: 100%;
-  @include media ($medium-screen) {
+  @include media ($large-screen) {
     display: block;
     margin: 0;
     padding: 0;
@@ -78,9 +83,12 @@ ul.navigation-menu {
 }
 // Nav items
 .nav-link {
-  display: block;
+  display: inline;
   text-align: right;
-  width: 100%;
+  margin-right: $gutter/2;
+  &:last-of-type {
+    margin-right: 0;
+  }
   @include media ($medium-screen) {
     background: transparent;
     display: inline;
@@ -88,10 +96,9 @@ ul.navigation-menu {
     width: auto;
   }
   a {
+    color: $action-color;
     display: inline-block;
-    @include media ($large-screen) {
-      padding-right: 1em;
-    }
+
   }
 }
 // INTRO
@@ -99,6 +106,9 @@ ul.navigation-menu {
 .intro {
   background: lighten($tangerine, 10%);
   padding-top: $gutter*2;
+  @include media($small-screen) {
+    padding-top: $gutter*3;
+  }
   h1 {
     margin-bottom: 4vw;
     font-size: 16vmin;
@@ -152,36 +162,32 @@ ul.navigation-menu {
 // LOCATION
 // ========================================================
 .location {
-  .date {
-    margin-top: 5vh;
-  }
-  p + p {
-    position: relative;
-    z-index: 1;
-    @include media($medium-screen) {
-      font-size: 1.75vw;
-    }
-    margin-top: $gutter*2;
-    margin-bottom: $gutter*3;
-    &:after {
-      content: '';
-      display: inline-block;
-      position: absolute;
-      right: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      float: right;
-      width: 15vmin;
-      height: 15vmin;
-      border-radius: 50%;
-      background-color: rgba($tangerine, 0.2);
-      vertical-align: middle;
-      z-index: -1;
-    }
-  }
   p {
-    font-style: italic;
     font-weight: 500;
+    &:first-of-type {
+      position: relative;
+      z-index: 1;
+      @include media($medium-screen) {
+        font-size: 1.75vw;
+      }
+
+      margin-bottom: $gutter*3;
+      &:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        float: right;
+        width: 15vmin;
+        height: 15vmin;
+        border-radius: 50%;
+        background-color: rgba($tangerine, 0.2);
+        vertical-align: middle;
+        z-index: -1;
+      }
+    }
   }
   .map {
     margin-bottom: $gutter;
@@ -190,8 +196,9 @@ ul.navigation-menu {
   figcaption {
     background: lighten($tangerine, 30%);
     position: relative;
-    padding: $gutter;
+    padding: $gutter/2 $gutter;
     font-size: smaller;
+    margin-top: -$gutter/2;
   }
 }
 // MAP
@@ -225,7 +232,7 @@ ul.navigation-menu {
 // COUNTDOWN
 // ========================================================
 .countdown {
-  @include media($medium-screen) {
+  @include media($large-screen) {
     position: fixed;
     right: $gutter;
     bottom: $gutter;
@@ -262,71 +269,7 @@ ul.navigation-menu {
     margin-left: 0;
   }
 }
-// ADD TO CALENDAR
-// ========================================================
-.addtocalendar var {
-  display: none;
-}
-.addtocalendar {
-  position: absolute;
-  z-index: 1000;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-.atcb-link {
-  &:before {
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font: normal 18px / 1 'Genericons';
-    vertical-align: top;
-    content: '\f305';
-    margin-right: 4px;
-    margin-top: -1px;
-  }
-  &:hover {
-    background-color: darken($mint, 5%);
-    border-color: darken($mint, 10%);
-  }
-}
-.atcb-link:active~ul,
-.atcb-link:focus~ul,
-.atcb-list:hover {
-  visibility: visible;
-}
-.atcb-item,
-.atcb-list {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-}
-.atcb-list {
-  visibility: hidden;
-  width: 170px;
-  border-bottom-right-radius: 0.25em;
-  border-bottom-left-radius: 0.25em;
-  z-index: 900;
-  padding: 0.5em 1em;
-  background: rgba($mint, 0.8);
-  margin-top: -5px;
-}
-.atcb-item {
-  float: none;
-  font-size: 0.9em;
-}
-.atcb-item-link {
-  text-decoration: none;
-  outline: none;
-  display: block;
-  &:hover {
-    position: relative;
-    z-index: 900;
-    cursor: pointer;
-    text-decoration: none;
-    outline: none;
-    font-weight: 600;
-  }
-}
+
 // FOOTER
 // ========================================================
 footer {
