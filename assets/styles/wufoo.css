@@ -145,7 +145,20 @@ form li.error input {
 
 /* Submit */
 
-.embed .confirm h2.freeHeading {
+.embed .confirm {
+  background-color: #E1F6DE;
+  padding: 1.53933em 1.618em;
+  margin: 1.618em 0;
+  border-radius: 3px;
+}
+.embed .confirm {
+  padding: 0;
+}
+.embed .confirm h2 {
     text-align: left !important;
     margin: 0 !important;
+    padding: 0 !important;
+    width: 90% !important;
+    font-size: 12vmin;
+    color: #F79344;
 }
