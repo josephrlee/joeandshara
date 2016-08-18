@@ -159,4 +159,6 @@ form li.error input {
     margin: 0 !important;
     padding: 0 !important;
     width: 90% !important;
+    font-size: 12vmin;
+    color: #F79344;
 }
