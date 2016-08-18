@@ -44,8 +44,11 @@ main {
 main {
   background: white;
   section {
-    padding: $gutter*3 0 $gutter;
+    padding: $gutter*2.5 0 $gutter;
     min-height: 100vh;
+    @include media($large-screen) {
+       padding: $gutter*2 0 $gutter;
+    }
   }
 }
 footer {
@@ -224,7 +227,7 @@ ul.navigation-menu {
 .form {
   aside {
     background: lighten($mint, 5%);
-    padding: $gutter;
+    padding: $gutter/3 $gutter $gutter/2;
     border-radius: $base-border-radius;
     margin-bottom: $gutter;
   }
