@@ -14,9 +14,6 @@ Last Updated : June 5, 2016
 }
 
 /* Layout */
-form.wufoo {
-  padding: 0;
-}
 form li#fo2li10 span input.fn, form li#fo3li10 span input.fn  {
     margin-right: 10px;
 }
@@ -160,7 +157,7 @@ form li.error input {
 .embed .confirm h2 {
     text-align: left !important;
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 0 0 1.5em !important;
     width: 90% !important;
     font-size: 2.25em !important;
     color: #F79344 !important;
