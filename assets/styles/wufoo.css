@@ -146,19 +146,19 @@ form li.error input {
 /* Submit */
 
 .embed .confirm {
+  padding: 0 !important;
+}
+.embed #container.confirm {
   background-color: #E1F6DE !important;
   padding: 1.53933em 1.618em !important;
   margin: 1.618em 0 !important;
   border-radius: 3px !important;
-}
-.embed .confirm {
-  padding: 0 !important;
 }
 .embed .confirm h2 {
     text-align: left !important;
     margin: 0 !important;
     padding: 0 !important;
     width: 90% !important;
-    font-size: 12vmin !important;
+    font-size: 6vmin !important;
     color: #F79344 !important;
 }
