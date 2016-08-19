@@ -14,7 +14,7 @@ Last Updated : June 5, 2016
 }
 
 /* Layout */
-form li#fo2li10 span input.fn, form li#fo3li10 span input.fn  {
+form li#fo2li10 span input.fn, form li#fo3li10 span input.fn, form li#fo3li23 span input.fn {
     margin-right: 10px;
 }
 form li.complex div span.left, form li.complex div span.right {
