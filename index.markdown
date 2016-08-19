@@ -26,7 +26,7 @@ rsvp_text: "### Kindly RSVP by September 15, 2016"
 kids_text: |-
   ##### A note to our friends with kids:
 
-  Due to limited seating at the venue, we've decided to make our wedding an (mostly) adult-only event. We hope this advance notice means you're still able to celebrate our big day and you'll enjoy having the evening off!
+  Due to limited seating at the venue, we've decided to make our wedding a (mostly) adult-only event. We hope this advance notice means you're still able to celebrate our big day and you'll enjoy having the evening off!
 
   <i>Some exceptions to the rule: Families traveling from out of town are welcome to bring their children. If you have a newborn, we're eager to meet them at the wedding!</i>
 
