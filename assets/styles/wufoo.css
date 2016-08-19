@@ -21,7 +21,7 @@ form li.complex div span.left, form li.complex div span.right {
     width: 47% !important;
 }
 @media only screen and (max-width: 580px) {
-    form li.complex div span.left, form li.complex div span.right, form li#fo2li10 span, form li#fo3li10 span {
+    form li.complex div span.left, form li.complex div span.right, form li#fo2li10 span, form li#fo3li10 span, form li#fo3li23 span {
         width: 100% !important;
     }
     input.text, input.search, textarea.textarea {
@@ -53,7 +53,7 @@ form li div label, form li span label {
 }
 form li span label {
     margin-top: -75px;
-    padding-bottom: 65px;
+    padding-bottom: 75px;
 }
 
 #title1, #title10, #title23 {
@@ -157,7 +157,7 @@ form li.error input {
 .embed .confirm h2 {
     text-align: left !important;
     margin: 0 !important;
-    padding: 0 0 1.5em !important;
+    padding: 0 0 1em !important;
     width: 90% !important;
     font-size: 2.25em !important;
     color: #F79344 !important;
