@@ -47,7 +47,7 @@ registries_text: |-
   We're incredibly grateful for your friendship. Your presence at our wedding is enough of a gift! That said, if you'd like to contribute to this new and exciting chapter in our lives, please visit our registries at [Amazon](https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML "View our Amazon Registry") and [Macy's](https://www.macys.com/wgl/registry/guest/2316601 "View Our Registry on Macy's").
 
   <a href="https://www.amazon.com/wedding/shara-liou-joe-lee-seattle-october-2016/registry/324Q8TYP7EUML" title="View our Amazon Registry" class="button"><i class="fa fa-amazon" aria-hidden="true"></i>Amazon</a> <a href="https://www.macys.com/wgl/registry/guest/2316601" title="View Our Registry on Macy's" class="button">Macy’s</a>
-footer_text: '[#JoeAndShara2016](https://www.instagram.com/explore/tags/joeandshara2016/
+footer_text: '[#TheLiouLeeWeds](https://www.instagram.com/explore/tags/TheLiouLeeWeds/
   "View on Instagram")'
 layout: invitaion
 ---
