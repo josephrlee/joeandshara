@@ -6,7 +6,7 @@ event_date: 2016-10-22 17:00:00 -07:00
 location_text: |-
   ## It's Party Time!
 
-  Come and witness our vows to love one another forever. The wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is semi-formal. Strut your stuff for us!
+  Come and witness our vows to love one another forever. The wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is [semi-formal](https://www.theknot.com/content/wedding-guest-attire-cheat-sheet). (Think, cocktail dresses, suit and tie.)
 
 
   ### Location
