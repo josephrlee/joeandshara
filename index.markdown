@@ -8,11 +8,12 @@ location_text: |-
 
   Come and witness our vows to love one another forever. The wedding will begin at 5pm. After the ceremony, there will be a cocktail hour, followed by a tasty dinner, and lots of enthusiastic dancing. The dress code is [semi-formal](https://www.theknot.com/content/wedding-guest-attire-cheat-sheet). (Think, cocktail dresses, suit and tie.)
 
-
   ### Location
 
   #### Great Hall at Green Lake
-  7220 Woodlawn Ave NE Seattle, WA 98115. [Here's a map.](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")<br/> Saturday, October 22, 2016 | 5pm-10pm
+
+  7220 Woodlawn Ave NE Seattle, WA 98115. [Here's a map.\
+  ](https://goo.gl/maps/4BZfy8oDGy12 "View on Google Maps")Saturday, October 22, 2016 | 5pm-10pm
 
   ### Parking
 
@@ -52,7 +53,8 @@ footer_text: '[#TheLiouLeeWeds](https://www.instagram.com/explore/tags/TheLiouLe
 layout: invitaion
 ---
 
-# Shara Liou <br/>+ Joseph Lee
+# Shara Liou\
+\+ Joseph Lee
 
 Invite you to celebrate their marriage!
 
